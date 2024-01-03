@@ -17,4 +17,60 @@ describe('App component should', () => {
       })
     ).toHaveTextContent('Hello World');
   });
+
+  test('render projects page', () => {
+    render(
+      <MemoryRouter initialEntries={['/projects']}>
+        <App />
+      </MemoryRouter>
+    );
+
+    expect(
+      screen.getByRole('heading', {
+        level: 1,
+      })
+    ).toHaveTextContent('Projects');
+  });
+
+  test('render about page', () => {
+    render(
+      <MemoryRouter initialEntries={['/about']}>
+        <App />
+      </MemoryRouter>
+    );
+
+    expect(
+      screen.getByRole('heading', {
+        level: 1,
+      })
+    ).toHaveTextContent('About');
+  });
+
+  test('render correct resource', () => {
+    render(
+      <MemoryRouter initialEntries={['/1']}>
+        <App />
+      </MemoryRouter>
+    );
+
+    expect(
+      screen.getByRole('heading', {
+        level: 1,
+      })
+    ).toHaveTextContent('Project 1');
+  });
+
+  test('render not found page', () => {
+    render(
+      <MemoryRouter initialEntries={['/banana/banana']}>
+        <App />
+      </MemoryRouter>
+    );
+
+    expect(
+      screen.getByRole('heading', {
+        level: 1,
+      })
+    ).toHaveTextContent('Not Found');
+  });
 });
