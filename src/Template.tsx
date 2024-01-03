@@ -1,8 +1,8 @@
 import { useNavigate } from 'react-router-dom';
 import { useState } from 'react';
-import resources from '../resources';
+import resources from './resources';
 
-function Home() {
+function Template() {
   const [projects, setProjects] = useState(resources);
   const navigate = useNavigate();
 
@@ -27,4 +27,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Template;

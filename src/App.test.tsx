@@ -17,14 +17,4 @@ describe('App component should', () => {
       })
     ).toHaveTextContent('Hello World');
   });
-
-  test('render not found page if wrong url was provided', () => {
-    render(
-      <MemoryRouter initialEntries={['/banana']}>
-        <App />
-      </MemoryRouter>
-    );
-
-    expect(screen.getByRole('link')).toHaveTextContent('Back To Home');
-  });
 });

@@ -3,11 +3,9 @@ import { Link } from 'react-router-dom';
 function NotFound() {
   return (
     <div>
-      <p>Not Found</p>
+      <h1>Not Found</h1>
       <Link to="/">
-        <button type="button" className="btn btn-outline">
-          Back To Home
-        </button>
+        <button type="button">Back To Home</button>
       </Link>
     </div>
   );
