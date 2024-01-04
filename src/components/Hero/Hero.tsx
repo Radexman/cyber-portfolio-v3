@@ -1,10 +1,13 @@
 import backgroundImageUrl from '../../assets/background.jpg';
+import backgroundImageGradientUrl from '../../assets/background-gradient.png';
 
 function Hero() {
   return (
     <div
       className="flex h-[89vh] items-center justify-start bg-cover bg-center text-center"
-      style={{ backgroundImage: `url(${backgroundImageUrl})` }}
+      style={{
+        backgroundImage: `url(${backgroundImageGradientUrl})`,
+      }}
     >
       <div className="container">
         <div className="max-w-lg border-2 border-primary-content p-4 text-left">
