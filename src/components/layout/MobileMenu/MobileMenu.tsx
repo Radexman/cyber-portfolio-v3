@@ -27,8 +27,8 @@ function MobileNavbar() {
         }`}
       >
         <div className="p-6">
-          <p className="mb-4 text-4xl font-bold text-primary-content">Menu</p>
-          <ul className="space-y-8">
+          <p className="mb-4 text-5xl font-bold text-primary-content">Menu</p>
+          <ul className="space-y-8 text-xl">
             <li>
               <NavLink
                 to="/"
