@@ -12,8 +12,8 @@ function MobileNavbar() {
     <div className="relative">
       <button
         type="button"
-        className={`menu-toggle fixed right-2 top-5 z-50 flex h-[30px] w-[30px] cursor-pointer flex-col justify-between border-none bg-transparent p-0 ${
-          isOpen ? 'open' : ''
+        className={`menu-toggle fixed right-2 top-5 z-50 flex h-[30px] w-[30px] cursor-pointer flex-col justify-between border-none bg-transparent p-0 md:hidden ${
+          isOpen ? 'open cyber-glitch-0' : ''
         }`}
         onClick={handleButtonClick}
       >
@@ -27,7 +27,7 @@ function MobileNavbar() {
         }`}
       >
         <div className="p-6">
-          <h1 className="mb-4 text-2xl font-bold text-primary-content">Menu</h1>
+          <p className="mb-4 text-4xl font-bold text-primary-content">Menu</p>
           <ul className="space-y-8">
             <li>
               <NavLink
