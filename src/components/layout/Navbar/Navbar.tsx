@@ -9,7 +9,7 @@ function Navbar() {
           <img src={logo} alt="Chip logo" className="w-16 rotate-90" />
         </div>
         <div className="flex-none">
-          <ul className="menu menu-horizontal px-1 text-secondary-content">
+          <ul className="menu menu-horizontal px-1 text-lg text-secondary-content">
             <li>
               <NavLink to="/">Home</NavLink>
             </li>
