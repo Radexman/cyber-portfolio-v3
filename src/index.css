@@ -10,12 +10,46 @@
   }
 }
 
-/* 
- * cyberpunk-css by alddesign: https://github.com/alddesign/cyberpunk-css 
- * v1.0.0-alpha.3
- * 
- * Free to use - do whatever the fck you want... 
- */
+.open .bar1 {
+  transform: rotate(-45deg) translate(-9px, 11px);
+}
+
+.open .bar2 {
+  opacity: 0;
+}
+
+.open .bar3 {
+  transform: rotate(45deg) translate(-7px, -9px);
+}
+
+/* Hamburger Menu Animations */
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(-2%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes shrink {
+  0% {
+    width: 95%;
+  }
+  100% {
+    width: 90%;
+  }
+}
 
 /*#region top level elements*/
 :root {
