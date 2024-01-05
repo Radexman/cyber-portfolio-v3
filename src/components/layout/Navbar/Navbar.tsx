@@ -4,7 +4,7 @@ import logo from '../../../assets/chip.svg';
 function Navbar() {
   return (
     <div className="container mx-auto">
-      <div className="navbar h-[12vh]">
+      <div className="navbar h-[10vh]">
         <div className="flex-1">
           <img src={logo} alt="Chip logo" className="w-16 rotate-90" />
         </div>
