@@ -15,7 +15,7 @@ describe('App component should', () => {
       screen.getByRole('heading', {
         level: 1,
       })
-    ).toHaveTextContent('Hello World');
+    ).toHaveTextContent('Frontend Developer_');
   });
 
   test('render projects page', () => {

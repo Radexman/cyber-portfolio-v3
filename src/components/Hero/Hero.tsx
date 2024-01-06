@@ -1,12 +1,12 @@
-// import backgroundImageUrl from '../../assets/background.jpg';
-import backgroundImageGradientUrl from '../../assets/background-gradient.png';
+import { Link } from 'react-router-dom';
+import backgroundImage from '../../assets/background-image.png';
 
 function Hero() {
   return (
     <div
       className="container mx-auto min-h-[90vh] bg-cover bg-center filter md:min-h-[30vh]"
       style={{
-        backgroundImage: `url(${backgroundImageGradientUrl})`,
+        backgroundImage: `url(${backgroundImage})`,
       }}
     >
       <div className="z-20 flex min-h-[90vh] flex-col items-center justify-center space-y-2 p-8 md:min-h-[43vh] md:items-start md:justify-start">
@@ -20,11 +20,13 @@ function Hero() {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed accumsan arcu eu purus mattis, quis ultricies
             velit molestie.
           </p>
-          <button type="button" className="cyber-button bg-red fg-white z-30">
-            Projects
-            <span className="glitchtext">Webrunner</span>
-            <span className="tag">RS9</span>
-          </button>
+          <Link to="/projects">
+            <button type="button" className="cyber-button bg-red fg-white z-30">
+              Projects
+              <span className="glitchtext">Webrunner</span>
+              <span className="tag">RS9</span>
+            </button>
+          </Link>
         </div>
       </div>
     </div>

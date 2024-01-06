@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 import logo from '../../../assets/chip.svg';
 import MobileMenu from '../MobileMenu/MobileMenu';
 
@@ -7,8 +7,12 @@ function Navbar() {
     <div className="container sticky top-0 z-50 mx-auto bg-neutral">
       <div className="navbar h-[10vh]">
         <div className="flex-1">
-          <p className="pr-2 text-3xl text-secondary-content md:text-4xl">Radosław Siek</p>
-          <img src={logo} alt="Chip logo" className="w-6 rotate-90 md:w-8" />
+          <Link to="/">
+            <div className="flex items-center justify-center">
+              <p className="pr-2 text-3xl text-secondary-content md:text-4xl">Radosław Siek</p>
+              <img src={logo} alt="Chip logo" className="w-6 rotate-90 md:w-8" />
+            </div>
+          </Link>
         </div>
         <div>
           <ul className="menu menu-horizontal hidden px-1 text-xl text-secondary-content md:flex">
