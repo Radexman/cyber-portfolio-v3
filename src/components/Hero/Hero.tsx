@@ -5,7 +5,7 @@ function Hero() {
   return (
     <div
       id="projects-page"
-      className="container mx-auto min-h-[90vh] bg-cover bg-center filter md:min-h-[30vh]"
+      className="container mx-auto bg-cover bg-center filter md:min-h-[30vh]"
       style={{
         backgroundImage: `url(${backgroundImage})`,
       }}
