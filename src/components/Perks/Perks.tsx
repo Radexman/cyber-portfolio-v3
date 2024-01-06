@@ -9,12 +9,12 @@ function Perks() {
   return (
     <div className="relative">
       <div className="flex">
-        <div className="min-h-[150vh] w-1/2 bg-accent md:min-h-screen" />
+        <div className="min-h-[170vh] w-1/2 bg-accent md:min-h-screen" />
         <div className="min-h-screen w-1/2" />
       </div>
       <div className="container mx-auto min-h-screen md:min-h-full">
-        <div className="container absolute top-0 my-6 text-base-100 md:my-0">
-          <div className="flex min-h-[50vh] flex-col items-center justify-center space-x-0 space-y-7 md:flex-row md:space-x-8 md:space-y-0">
+        <div className="container absolute top-0 my-10 text-base-100 md:my-0">
+          <div className="flex min-h-[50vh] flex-col items-center justify-center space-x-0 space-y-10 md:flex-row md:space-x-8 md:space-y-0">
             <div className="flex w-[90%] flex-col justify-between space-y-2 bg-primary p-4  shadow-xl md:w-1/3 md:p-6">
               <img src={programmingIcon} className="w-14" alt="Programming on a desktop" />
               <span className="text-3xl">Programmer</span>
