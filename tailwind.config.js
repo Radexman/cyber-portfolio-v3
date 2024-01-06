@@ -10,6 +10,8 @@ export default {
       animation: {
         'glitch-1': 'glitch-1 5s linear infinite',
         'glitch-2': 'cyber-glitch-1 5s linear infinite',
+        'glitch-3': 'cyber-glitch-3 1s linear infinite',
+        'glitch-4': 'cyber-glitch-4 5s linear infinite',
       },
       keyframes: {
         'glitch-1': {
@@ -96,6 +98,103 @@ export default {
           '65%': {
             transform: 'translate(0, 0) skew(0deg)',
             filter: 'invert(0)',
+          },
+        },
+        'glitch-3': {
+          '0%': {
+            visibility: 'visible',
+          },
+          '49%': {
+            visibility: 'visible',
+          },
+          '50%': {
+            visibility: 'hidden',
+          },
+          '100%': {
+            visibility: 'hidden',
+          },
+        },
+        'glitch-4': {
+          '0%': {
+            visibility: 'visible',
+          },
+          '1%': {
+            visibility: 'hidden',
+          },
+          '2%': {
+            visibility: 'hidden',
+          },
+          '3%': {
+            visibility: 'visible',
+          },
+
+          '20%': {
+            visibility: 'visible',
+          },
+          '21%': {
+            visibility: 'hidden',
+          },
+          '24%': {
+            visibility: 'hidden',
+          },
+          '25%': {
+            visibility: 'visible',
+          },
+
+          '40%': {
+            visibility: 'visible',
+          },
+          '41%': {
+            visibility: 'hidden',
+          },
+          '42%': {
+            visibility: 'hidden',
+          },
+          '43%': {
+            visibility: 'visible',
+          },
+
+          '44%': {
+            visibility: 'visible',
+          },
+          '45%': {
+            visibility: 'hidden',
+          },
+          '46%': {
+            visibility: 'hidden',
+          },
+          '47%': {
+            visibility: 'visible',
+          },
+
+          '60%': {
+            visibility: 'visible',
+          },
+          '61%': {
+            visibility: 'hidden',
+          },
+          '64%': {
+            visibility: 'hidden',
+          },
+          '65%': {
+            visibility: 'visible',
+          },
+
+          '70%': {
+            visibility: 'visible',
+          },
+          '71%': {
+            visibility: 'hidden',
+          },
+          '72%': {
+            visibility: 'hidden',
+          },
+          '73%': {
+            visibility: 'visible',
+          },
+
+          '100%': {
+            visibility: 'visible',
           },
         },
       },

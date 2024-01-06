@@ -25,7 +25,7 @@ function Perks() {
               <Link to="/about" className="group">
                 <div className="flex items-center space-x-3 text-secondary-content">
                   <p className="text-lg font-bold uppercase tracking-widest">Know More</p>
-                  <span className="group-hover:animate-glitch-1">
+                  <span className="group-hover:animate-glitch-4">
                     <Arrow size={20} />
                   </span>
                 </div>
@@ -39,9 +39,11 @@ function Perks() {
                 consectetur adipisicing elit. Reprehenderit, eius.
               </p>
               <Link to="/about">
-                <div className="flex items-center space-x-3">
+                <div className="group flex items-center space-x-3">
                   <p className="text-lg font-bold uppercase tracking-widest text-primary-content">Know More</p>
-                  <Arrow size={20} />
+                  <span className="group-hover:animate-glitch-4">
+                    <Arrow size={20} />
+                  </span>
                 </div>
               </Link>
             </div>
@@ -53,9 +55,11 @@ function Perks() {
                 consectetur adipisicing elit. Reprehenderit, eius.
               </p>
               <Link to="/about">
-                <div className="flex items-center space-x-3 text-secondary-content">
+                <div className="group flex items-center space-x-3 text-secondary-content">
                   <p className="text-lg font-bold uppercase tracking-widest">Know More</p>
-                  <Arrow size={20} />
+                  <span className="group-hover:animate-glitch-4">
+                    <Arrow size={20} />
+                  </span>
                 </div>
               </Link>
             </div>
