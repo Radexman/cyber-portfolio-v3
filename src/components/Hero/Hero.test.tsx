@@ -1,15 +1,16 @@
 import { describe, test, expect } from 'vitest';
-import { render, screen, fireEvent } from '@testing-library/react';
-import { MemoryRouter, BrowserRouter } from 'react-router-dom';
-import Hero from './Hero';
+import { render, screen } from '@testing-library/react';
+import userEvent from '@testing-library/user-event';
+import { MemoryRouter } from 'react-router-dom';
+import App from '../../App';
 import Projects from '../../pages/Projects/Projects';
 
 describe('Hero component should', () => {
   beforeEach(() => {
     render(
-      <BrowserRouter>
-        <Hero />
-      </BrowserRouter>
+      <MemoryRouter initialEntries={['/']}>
+        <App />
+      </MemoryRouter>
     );
   });
 
@@ -21,23 +22,15 @@ describe('Hero component should', () => {
     ).toHaveTextContent('Frontend Developer_');
   });
 
-  test('have redirect to projects section button', () => {
-    expect(
+  test('render projects page on button click', () => {
+    userEvent.click(
       screen.getByRole('link', {
         name: 'Projects Webrunner RS9',
       })
-    ).toHaveTextContent('ProjectsWebrunnerRS9');
-  });
-
-  test('redirect user to projects page on button click', () => {
-    const redirectButton = screen.getByRole('link', {
-      name: 'Projects Webrunner RS9',
-    });
-
-    fireEvent.click(redirectButton);
+    );
 
     render(
-      <MemoryRouter initialEntries={['/projects']}>
+      <MemoryRouter initialEntries={['./projects']}>
         <Projects />
       </MemoryRouter>
     );
