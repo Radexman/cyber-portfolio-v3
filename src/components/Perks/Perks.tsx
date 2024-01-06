@@ -15,7 +15,7 @@ function Perks() {
       <div className="container mx-auto min-h-screen md:min-h-full">
         <div className="container absolute top-0 my-10 text-base-100 md:my-0">
           <div className="flex min-h-[50vh] flex-col items-center justify-center space-x-0 space-y-10 md:flex-row md:space-x-8 md:space-y-0">
-            <div className="flex w-[90%] flex-col justify-between space-y-2 bg-primary p-4  shadow-xl md:w-1/3 md:p-6">
+            <div className="flex w-[85%] flex-col items-center justify-between space-y-2 bg-primary p-4 text-center shadow-xl transition hover:scale-105 md:w-1/3 md:items-start md:p-6 md:text-left">
               <img src={programmingIcon} className="w-14" alt="Programming on a desktop" />
               <span className="text-3xl">Programmer</span>
               <p>
@@ -31,7 +31,7 @@ function Perks() {
                 </div>
               </Link>
             </div>
-            <div className="flex w-[90%] flex-col justify-between space-y-2 bg-secondary p-4 shadow-xl md:w-1/3 md:p-6">
+            <div className="flex w-[85%] flex-col items-center justify-between space-y-2 bg-secondary p-4 text-center shadow-xl transition hover:scale-105 md:w-1/3 md:items-start md:p-6 md:text-left">
               <img src={studyIcon} className="w-14" alt="Programming on a desktop" />
               <span className="text-3xl">CS Student</span>
               <p>
@@ -45,7 +45,7 @@ function Perks() {
                 </div>
               </Link>
             </div>
-            <div className="flex w-[90%] flex-col justify-between space-y-2 bg-primary p-4  shadow-xl md:w-1/3 md:p-6">
+            <div className="flex w-[85%] flex-col items-center justify-between space-y-2 bg-primary p-4 text-center shadow-xl transition hover:scale-105 md:w-1/3 md:items-start md:p-6 md:text-left">
               <img src={freelancerIcon} className="w-14" alt="Programming on a desktop" />
               <span className="text-3xl">Freelancer</span>
               <p>
