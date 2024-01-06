@@ -1,11 +1,11 @@
 import Hero from '../../components/Hero/Hero';
-import Stats from '../../components/Stats/Stats';
+import Perks from '../../components/Perks/Perks';
 
 function Home() {
   return (
     <div>
       <Hero />
-      <Stats />
+      <Perks />
     </div>
   );
 }

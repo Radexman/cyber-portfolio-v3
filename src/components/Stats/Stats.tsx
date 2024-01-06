@@ -1,67 +1,34 @@
-import { Link } from 'react-router-dom';
-import { FaLongArrowAltRight as Arrow } from 'react-icons/fa';
-import programmingIcon from '../../assets/programming.svg';
-import studyIcon from '../../assets/study.svg';
-import freelancerIcon from '../../assets/freelancer.svg';
-
 function Stats() {
   return (
-    <div className="relative">
-      <div className="flex">
-        <div className="min-h-[150vh] w-1/2 bg-accent md:min-h-screen" />
-        <div className="min-h-screen w-1/2" />
-      </div>
-      <div className="container mx-auto min-h-screen">
-        <div className="container absolute top-0 my-6 text-base-100 md:my-0">
-          <div className="flex min-h-[50vh] flex-col items-center justify-center space-x-0 space-y-7 md:flex-row md:space-x-7 md:space-y-0">
-            <div className="cyber-tile flex w-[90%] flex-col justify-between space-y-2 bg-primary p-4 shadow-lg md:w-1/3 md:p-8">
-              <img src={programmingIcon} className="w-14" alt="Programming on a desktop" />
-              <span className="text-3xl">Programmer</span>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, eius. Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Reprehenderit, eius.
-              </p>
-              <Link to="/about" className="group">
-                <div className="flex items-center space-x-3 text-secondary-content">
-                  <p className="text-lg font-bold uppercase tracking-widest">Know More</p>
-                  <span className="group-hover:animate-glitch-1">
-                    <Arrow size={20} />
-                  </span>
-                </div>
-              </Link>
-            </div>
-            <div className="cyber-tile flex w-[90%] flex-col justify-between space-y-2 bg-secondary p-4 md:w-1/3 md:p-8">
-              <img src={studyIcon} className="w-14" alt="Programming on a desktop" />
-              <span className="text-3xl">CS Student</span>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, eius. Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Reprehenderit, eius.
-              </p>
-              <Link to="/about">
-                <div className="flex items-center space-x-3">
-                  <p className="text-lg font-bold uppercase tracking-widest text-primary-content">Know More</p>
-                  <Arrow size={20} />
-                </div>
-              </Link>
-            </div>
-            <div className="cyber-tile flex w-[90%] flex-col justify-between space-y-2 bg-primary p-4 shadow-lg md:w-1/3 md:p-8">
-              <img src={freelancerIcon} className="w-14" alt="Programming on a desktop" />
-              <span className="text-3xl">Freelancer</span>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, eius. Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Reprehenderit, eius.
-              </p>
-              <Link to="/about">
-                <div className="flex items-center space-x-3 text-secondary-content">
-                  <p className="text-lg font-bold uppercase tracking-widest">Know More</p>
-                  <Arrow size={20} />
-                </div>
-              </Link>
-            </div>
+    <div className="container mx-auto py-4">
+      <div className="flex flex-col items-center justify-center space-y-7 p-2 md:flex-row md:space-x-8 md:space-y-0">
+        <div className="flex w-[90%] flex-col items-center justify-center text-center md:w-1/3">
+          <p className="text-8xl text-secondary-content">2+</p>
+          <p className="text-2xl">Years Experience</p>
+        </div>
+        <div className="flex w-[90%] flex-col space-y-8 md:w-1/3">
+          <div className="flex flex-col items-center justify-center space-y-2 bg-primary p-4 py-6">
+            <p className="text-3xl text-secondary-content">2061+</p>
+            <p>Project Hours</p>
+          </div>
+          <div className="flex flex-col items-center justify-center space-y-2 bg-primary p-4 py-6">
+            <p className="text-3xl text-secondary-content">3</p>
+            <p>Clients</p>
+          </div>
+        </div>
+        <div className="w-[90%] flex-col space-y-8 md:w-1/3">
+          <div className="flex flex-col items-center justify-center bg-primary p-4 py-6">
+            <p>Section 3</p>
+            <p>Content 3</p>
+          </div>
+          <div className="flex flex-col items-center justify-center bg-primary p-4 py-6">
+            <p>Section 4</p>
+            <p>Content 4</p>
           </div>
         </div>
       </div>
     </div>
   );
 }
+
 export default Stats;
