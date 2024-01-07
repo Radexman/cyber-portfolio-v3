@@ -1,8 +1,5 @@
 import { Link } from 'react-router-dom';
-import dummyProjectOne from '../../assets/dummy-project-1.png';
-import dummyProjectTwo from '../../assets/dummy-project-2.png';
-import dummyProjectTree from '../../assets/dummy-project-3.png';
-import dummyProjectFour from '../../assets/dummy-project-4.png';
+import resources from '../../resources';
 
 function Featured() {
   return (
@@ -24,34 +21,17 @@ function Featured() {
       </div>
       <div className="mt-16 space-y-2">
         <div className="grid grid-cols-1 place-content-center gap-16 md:grid-cols-2 md:grid-rows-2">
-          <div>
-            <div className="bg-accent p-12">
-              <img src={dummyProjectOne} alt="" className="h-full w-full" />
+          {resources.map((resource) => (
+            <div key={resource.id}>
+              <div className="bg-accent p-12">
+                <img src={resource.imageUrl} alt="" className="h-full w-full" />
+              </div>
+              <p className="text-base-100">{resource.name}</p>
+              <Link to={`/${resource.id}`}>
+                <p className="text-secondary">Know More</p>
+              </Link>
             </div>
-            <p>Overachiever</p>
-            <p>Know More</p>
-          </div>
-          <div>
-            <div className="bg-accent p-12">
-              <img src={dummyProjectTwo} alt="" className="h-full w-full" />
-            </div>
-            <p>Overachiever</p>
-            <p>Know More</p>
-          </div>
-          <div>
-            <div className="bg-accent p-12">
-              <img src={dummyProjectTree} alt="" className="h-full w-full" />
-            </div>
-            <p>Overachiever</p>
-            <p>Know More</p>
-          </div>
-          <div>
-            <div className="bg-accent p-12">
-              <img src={dummyProjectFour} alt="" className="h-full w-full" />
-            </div>
-            <p>Overachiever</p>
-            <p>Know More</p>
-          </div>
+          ))}
         </div>
       </div>
     </div>
