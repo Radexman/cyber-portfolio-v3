@@ -7,9 +7,9 @@ import freelancerIcon from '../../assets/freelancer.svg';
 
 function Perks() {
   return (
-    <div className="relative">
+    <div>
       <div className="flex">
-        <div className="min-h-[170vh] w-1/2 bg-accent md:min-h-screen" />
+        <div className="md:min-h-auto min-h-[170vh] w-1/2 bg-accent md:min-h-[120vh]" />
         <div className="min-h-screen w-1/2" />
       </div>
       <div className="container mx-auto min-h-screen md:min-h-full">
