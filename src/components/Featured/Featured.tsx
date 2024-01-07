@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { FaLongArrowAltRight as Arrow } from 'react-icons/fa';
 import resources from '../../resources';
 
 function Featured() {
@@ -22,14 +23,23 @@ function Featured() {
       <div className="mt-16 space-y-2">
         <div className="grid grid-cols-1 place-content-center gap-16 md:grid-cols-2 md:grid-rows-2">
           {resources.map((resource) => (
-            <div key={resource.id}>
-              <div className="bg-accent p-12">
+            <div key={resource.id} className="mx-auto w-[85%] md:w-full">
+              <div className="bg-accent p-4 md:p-12">
                 <img src={resource.imageUrl} alt="" className="h-full w-full" />
               </div>
-              <p className="text-base-100">{resource.name}</p>
-              <Link to={`/${resource.id}`}>
-                <p className="text-secondary">Know More</p>
-              </Link>
+              <div className="mt-2 space-y-2">
+                <p className="text-2xl uppercase text-base-100">{resource.name}</p>
+                <Link to={`/${resource.id}`} className="group">
+                  <div className="flex items-center space-x-3 text-secondary">
+                    <p className="text-lg uppercase tracking-widest text-secondary group-hover:animate-glitch-1">
+                      Learn More
+                    </p>
+                    <span className="group-hover:animate-glitch-4">
+                      <Arrow size={20} />
+                    </span>
+                  </div>
+                </Link>
+              </div>
             </div>
           ))}
         </div>

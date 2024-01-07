@@ -24,7 +24,7 @@ function Perks() {
               </p>
               <Link to="/about" className="group">
                 <div className="flex items-center space-x-3 text-secondary-content">
-                  <p className="text-lg font-bold uppercase tracking-widest">Know More</p>
+                  <p className="text-lg uppercase tracking-widest">Know More</p>
                   <span className="group-hover:animate-glitch-4">
                     <Arrow size={20} />
                   </span>

@@ -14,7 +14,9 @@ function ProjectDisplay() {
     <div className="text-black">
       <h1>{resourceName}</h1>
       <p>{resourceDetails}</p>
-      <img src={resourceImage} alt="" />
+      <div className="max-w-sm">
+        <img src={resourceImage} alt="" />
+      </div>
     </div>
   );
 }
