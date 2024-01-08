@@ -13,7 +13,7 @@ function MobileNavbar() {
       <button
         type="button"
         className={`menu-toggle fixed right-3 top-5 z-50 flex h-[30px] w-[30px] cursor-pointer flex-col justify-between border-none bg-transparent p-0 md:hidden ${
-          isOpen ? 'open cyber-glitch-0' : ''
+          isOpen ? 'open' : ''
         }`}
         onClick={handleButtonClick}
       >
