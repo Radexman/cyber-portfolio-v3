@@ -9,7 +9,7 @@ function Perks() {
   return (
     <div>
       <div className="flex">
-        <div className="md:min-h-auto min-h-[165vh] w-1/2 bg-accent md:min-h-[100vh]" />
+        <div className="md:min-h-auto min-h-[145vh] w-1/2 bg-accent md:min-h-[100vh]" />
         <div className="min-h-screen w-1/2" />
       </div>
       <div className="container mx-auto min-h-screen md:min-h-full">
