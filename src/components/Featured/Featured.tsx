@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { FaLongArrowAltRight as Arrow } from 'react-icons/fa';
+// import { FaLongArrowAltRight as Arrow } from 'react-icons/fa';
 import resources from '../../resources';
 
 function Featured() {
