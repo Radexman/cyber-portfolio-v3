@@ -7,21 +7,21 @@ function Stats() {
           <p className="text-2xl">Years Experience</p>
         </div>
         <div className="flex w-[90%] flex-col space-y-8 md:w-1/3">
-          <div className="flex h-32 flex-col items-center justify-center space-y-2 bg-primary">
+          <div className="flex h-24 flex-col items-center justify-center space-y-2 bg-primary">
             <p className="text-3xl text-secondary-content">2062+</p>
             <p>Project Hours</p>
           </div>
-          <div className="flex h-32 flex-col items-center justify-center space-y-2 bg-primary">
+          <div className="flex h-24 flex-col items-center justify-center space-y-2 bg-primary">
             <p className="text-3xl text-secondary-content">3</p>
             <p>Clients</p>
           </div>
         </div>
         <div className="w-[90%] flex-col space-y-8 md:w-1/3">
-          <div className="flex h-32 flex-col items-center justify-center space-y-2 bg-primary">
+          <div className="flex h-24 flex-col items-center justify-center space-y-2 bg-primary">
             <p className="text-3xl  text-secondary-content">2</p>
             <p>Certificates</p>
           </div>
-          <div className="flex h-32 flex-col items-center justify-center space-y-2 bg-primary">
+          <div className="flex h-24 flex-col items-center justify-center space-y-2 bg-primary">
             <p className="text-3xl text-secondary-content">66+</p>
             <p>Projects Deployed</p>
           </div>

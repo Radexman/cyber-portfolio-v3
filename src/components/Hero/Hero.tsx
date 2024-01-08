@@ -10,9 +10,9 @@ function Hero() {
         backgroundImage: `url(${backgroundImage})`,
       }}
     >
-      <div className="z-20 flex min-h-[89vh] flex-col items-center justify-center space-y-2 p-8 md:min-h-[43vh] md:items-start md:justify-start">
+      <div className="z-20 flex min-h-[91vh] flex-col items-center justify-center space-y-2 p-8 md:min-h-[43vh] md:items-start md:justify-start">
         <p className="text-3xl font-bold text-secondary-content">Hello Im Radek</p>
-        <div className="max-w-xl space-y-1 border-primary-content text-center text-base-100 md:text-left">
+        <div className="max-w-xl space-y-1 border-primary-content pb-4 text-center text-base-100 md:text-left">
           <h1 className="text-7xl font-bold md:text-6xl">
             Frontend <span className="pl-8 md:pl-0">Developer</span>
             <span className="cyber-glitch-3">_</span>
