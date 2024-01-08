@@ -23,7 +23,7 @@ function Featured() {
           </div>
         </div>
         <div className="mt-16 space-y-2">
-          <div className="grid grid-cols-1 gap-x-40 gap-y-16 md:grid-cols-2 md:grid-rows-2">
+          <div className="grid grid-cols-1 gap-y-20 md:grid-cols-2 md:grid-rows-2 lg:gap-x-32 xl:gap-x-48">
             {resources.map((resource) => (
               <div key={resource.id} className="cyber-tile md:cyber-tile-big mx-auto w-[85%] shadow-2xl md:w-full">
                 <div className="bg-primary p-4">
