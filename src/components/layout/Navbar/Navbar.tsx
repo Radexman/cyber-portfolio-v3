@@ -11,7 +11,7 @@ function Navbar() {
             <Link to="/">
               <div className="ml-0 flex items-center justify-start md:-ml-3">
                 <img src={logo} alt="Chip logo" className="w-8 rotate-90" />
-                <p className="pl-4 text-4xl text-secondary-content">Radosław Siek</p>
+                <p className="pl-4 text-3xl text-secondary-content">Radosław Siek</p>
               </div>
             </Link>
           </div>
@@ -24,7 +24,7 @@ function Navbar() {
                 <NavLink to="/projects">Projects</NavLink>
               </li>
               <li>
-                <NavLink to="/about">About</NavLink>
+                <NavLink to="/about">About Me</NavLink>
               </li>
             </ul>
             <MobileMenu />

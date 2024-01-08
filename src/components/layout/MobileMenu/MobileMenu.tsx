@@ -53,10 +53,9 @@ function MobileNavbar() {
                 className="block text-secondary-content transition duration-300 "
                 onClick={handleButtonClick}
               >
-                About
+                About Me
               </NavLink>
             </li>
-            {/* Add more menu items as needed */}
           </ul>
         </div>
       </div>

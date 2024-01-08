@@ -1,8 +1,12 @@
 import { Link } from 'react-router-dom';
 // import { FaLongArrowAltRight as Arrow } from 'react-icons/fa';
+import { useState } from 'react';
 import resources from '../../resources';
+import { ResourceTypes } from '../../Types/resource.types';
 
 function Featured() {
+  const [projects, setProjects] = useState<ResourceTypes[]>(resources);
+
   return (
     <div className="relative mt-4 min-h-screen bg-neutral">
       <div className="absolute -bottom-44 h-[60vh] w-full bg-accent" />
@@ -23,18 +27,15 @@ function Featured() {
           </div>
         </div>
         <div className="mt-16 space-y-2">
-          <div className="grid grid-cols-1 gap-y-20 md:grid-cols-2 md:grid-rows-2 lg:gap-x-32 xl:gap-x-48">
-            {resources.map((resource) => (
-              <div key={resource.id} className="cyber-tile md:cyber-tile-big mx-auto w-[85%] shadow-2xl md:w-full">
+          <div className="grid grid-cols-1 gap-y-10 md:grid-cols-2 md:grid-rows-2 md:gap-y-20 lg:gap-x-32 xl:gap-x-48">
+            {projects.map((project) => (
+              <div key={project.id} className="cyber-tile md:cyber-tile-big mx-auto w-[80%] md:w-full">
                 <div className="bg-primary p-4">
-                  <img src={resource.imageUrl} alt={`${resource.name} landing page`} className="block h-full w-full" />
+                  <img src={project.imageUrl} alt={`${project.name} landing page`} className="block h-full w-full" />
                   <div className="mt-2 space-y-2">
-                    <p className="text-xl uppercase text-base-100">{resource.name}</p>
-                    <p className="text-base-100">
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam dolorem doloribus delectus
-                      velit est commodi.
-                    </p>
-                    <Link to={`/${resource.id}`} className="group">
+                    <p className="text-xl uppercase text-base-100">{project.name}</p>
+                    <p className="text-base-100">{project.summary}</p>
+                    <Link to={`/${project.id}`} className="group">
                       {/* <div className="mt-2 flex items-center space-x-3 text-secondary">
                         <p className="uppercase tracking-widest text-secondary group-hover:animate-glitch-1">
                           Learn More
@@ -48,8 +49,8 @@ function Featured() {
                         className="cyber-button-small bg-red fg-white z-30 -ml-5 mt-2 scale-75 lg:-ml-0 lg:scale-100"
                       >
                         Learn More
-                        <span className="glitchtext">{resource.name}</span>
-                        <span className="tag">PR4</span>
+                        <span className="glitchtext">{project.name}</span>
+                        <span className="tag">{`PR${project.id}`}</span>
                       </button>
                     </Link>
                   </div>
