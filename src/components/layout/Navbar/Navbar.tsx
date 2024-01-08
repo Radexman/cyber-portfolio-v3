@@ -10,8 +10,8 @@ function Navbar() {
           <div className="flex-1">
             <Link to="/">
               <div className="ml-0 flex items-center justify-start md:-ml-3">
-                <img src={logo} alt="Chip logo" className="w-7 rotate-90 md:w-10" />
-                <p className="pl-4 text-3xl text-secondary-content md:text-4xl">Radosław Siek</p>
+                <img src={logo} alt="Chip logo" className="w-8 rotate-90" />
+                <p className="pl-4 text-4xl text-secondary-content">Radosław Siek</p>
               </div>
             </Link>
           </div>
