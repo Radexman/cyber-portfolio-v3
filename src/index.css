@@ -5,8 +5,8 @@
 @layer base {
   @font-face {
     font-family: Cyber;
-    src: url('https://assets.codepen.io/605876/Blender-Pro-Bold.otf');
-    font-display: swap;
+    src: url('./assets/fonts/Cyber.otf');
+    /* font-display: swap; */
   }
 }
 
