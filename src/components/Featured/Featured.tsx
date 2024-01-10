@@ -8,9 +8,9 @@ function Featured() {
   const [projects] = useState<ResourceTypes[]>(resources);
 
   return (
-    <div className="relative mt-4 min-h-screen bg-neutral">
+    <div className="relative mt-44 min-h-screen bg-neutral md:mt-4">
       <div className="absolute -bottom-44 h-[60vh] w-full bg-accent" />
-      <div className="container relative mx-auto ">
+      <div className="container relative mx-auto">
         <div className="mx-5 flex flex-col items-center justify-center text-center md:mx-0 md:flex-row md:justify-between md:text-left">
           <div className="flex flex-col space-y-2 text-base-100">
             <h2 className="text-3xl">Featured Projcts</h2>
