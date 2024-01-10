@@ -5,7 +5,7 @@ import resources from '../../resources';
 import { ResourceTypes } from '../../Types/resource.types';
 
 function Featured() {
-  const [projects, setProjects] = useState<ResourceTypes[]>(resources);
+  const [projects] = useState<ResourceTypes[]>(resources);
 
   return (
     <div className="relative mt-4 min-h-screen bg-neutral">
