@@ -11,7 +11,7 @@ function Testemonials() {
   }, []);
 
   return (
-    <div className="container relative mx-auto min-h-screen text-base-100">
+    <div className="container relative mx-auto text-base-100">
       <div className="mx-6 my-10 flex flex-col items-center text-center md:mx-0 md:items-start md:text-left">
         <h2 className="text-3xl">Testemonials</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, molestias?</p>

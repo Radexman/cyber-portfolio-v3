@@ -26,10 +26,10 @@ function Featured() {
           </div>
         </div>
         <div className="mt-16 space-y-2">
-          <div className="grid grid-cols-1 gap-y-10 md:grid-cols-2 md:grid-rows-2 md:gap-y-20 lg:gap-x-32 xl:gap-x-48">
+          <div className="grid grid-cols-1 gap-y-10 md:grid-cols-2 md:grid-rows-2 md:gap-y-12 lg:gap-x-32 xl:gap-x-56">
             {projects.map((project) => (
               <div key={project.id} className="cyber-tile md:cyber-tile-big mx-auto w-[80%] md:w-full">
-                <div className="bg-primary p-4">
+                <div className="bg-primary p-5">
                   <img src={project.imageUrl} alt={`${project.name} landing page`} className="block h-full w-full" />
                   <div className="mt-2 space-y-2">
                     <p className="text-xl uppercase text-base-100">{project.name}</p>
