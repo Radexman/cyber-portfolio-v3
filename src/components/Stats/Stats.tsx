@@ -1,17 +1,16 @@
 import { useState } from 'react';
 import TileLabels from '../../TileLabels';
 import { LabelsTypes } from '../../Types/labels.types';
+import SingleTile from '../SingleTile/SingleTile';
 
 function Stats() {
   const [labels] = useState<LabelsTypes[]>(TileLabels);
 
   const renderPairTiles = (tiles: LabelsTypes[]) => {
-    return tiles.map((tile) => (
-      <div key={tile.id} className="flex h-28 flex-col items-center justify-center space-y-2 bg-primary">
-        <p className="text-4xl text-secondary-content">{tile.value}</p>
-        <p>{tile.label}</p>
-      </div>
-    ));
+    return tiles.map((tile) => {
+      const { id, label, value } = tile;
+      return <SingleTile key={id} label={label} value={value} id={0} />;
+    });
   };
 
   return (

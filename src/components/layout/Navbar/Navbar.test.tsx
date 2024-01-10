@@ -13,7 +13,7 @@ describe('Navbar component should', () => {
 
     expect(
       screen.getByRole('link', {
-        name: 'Radosław Siek Chip logo',
+        name: 'Chip logo Radosław Siek',
       })
     ).toHaveTextContent('Radosław Siek');
   });
