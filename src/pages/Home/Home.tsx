@@ -1,6 +1,7 @@
 import Featured from '../../components/Featured/Featured';
 import Hero from '../../components/Hero/Hero';
 import Perks from '../../components/Perks/Perks';
+import Testemonials from '../../components/Testemoinial/Testemonials';
 
 function Home() {
   return (
@@ -11,6 +12,7 @@ function Home() {
         <Perks />
       </div>
       <Featured />
+      <Testemonials />
     </div>
   );
 }

@@ -9,7 +9,7 @@ function Featured() {
 
   return (
     <div className="relative mt-44 min-h-screen bg-neutral md:mt-4">
-      <div className="absolute -bottom-44 h-[60vh] w-full bg-accent" />
+      <div className="absolute -bottom-52 h-[80vh] w-full bg-accent" />
       <div className="container relative mx-auto">
         <div className="mx-5 flex flex-col items-center justify-center text-center md:mx-0 md:flex-row md:justify-between md:text-left">
           <div className="flex flex-col space-y-2 text-base-100">
@@ -36,14 +36,6 @@ function Featured() {
                     <p className="text-xl uppercase text-base-100">{project.name}</p>
                     <p className="text-base-100">{project.summary}</p>
                     <Link to={`/${project.id}`} className="group">
-                      {/* <div className="mt-2 flex items-center space-x-3 text-secondary">
-                        <p className="uppercase tracking-widest text-secondary group-hover:animate-glitch-1">
-                          Learn More
-                        </p>
-                        <span className="group-hover:animate-glitch-4">
-                          <Arrow size={20} />
-                        </span>
-                      </div> */}
                       <button
                         type="button"
                         className="cyber-button-small bg-red fg-white z-30 -ml-5 mt-2 scale-75 lg:-ml-0 lg:scale-100"

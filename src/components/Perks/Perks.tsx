@@ -17,7 +17,7 @@ function Perks() {
           <div className="flex min-h-[50vh] flex-col items-center justify-center space-x-0 space-y-10 md:flex-row md:space-x-8 md:space-y-0">
             <div className="flex w-[85%] flex-col items-center justify-between space-y-2 bg-primary p-4 text-center shadow-xl transition hover:scale-105 md:w-1/3 md:items-start md:p-6 md:text-left">
               <img src={programmingIcon} className="w-14" alt="Programming on a desktop" />
-              <span className="text-3xl">Programmer</span>
+              <h2 className="text-3xl">Programmer</h2>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, eius. Lorem ipsum dolor sit amet
                 consectetur adipisicing elit. Reprehenderit, eius.
@@ -33,7 +33,7 @@ function Perks() {
             </div>
             <div className="flex w-[85%] flex-col items-center justify-between space-y-2 bg-secondary p-4 text-center shadow-xl transition hover:scale-105 md:w-1/3 md:items-start md:p-6 md:text-left">
               <img src={studyIcon} className="w-14" alt="Programming on a desktop" />
-              <span className="text-3xl">CS Student</span>
+              <h2 className="text-3xl">CS Student</h2>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, eius. Lorem ipsum dolor sit amet
                 consectetur adipisicing elit. Reprehenderit, eius.
@@ -49,7 +49,7 @@ function Perks() {
             </div>
             <div className="flex w-[85%] flex-col items-center justify-between space-y-2 bg-primary p-4 text-center shadow-xl transition hover:scale-105 md:w-1/3 md:items-start md:p-6 md:text-left">
               <img src={freelancerIcon} className="w-14" alt="Programming on a desktop" />
-              <span className="text-3xl">Freelancer</span>
+              <h2 className="text-3xl">Freelancer</h2>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, eius. Lorem ipsum dolor sit amet
                 consectetur adipisicing elit. Reprehenderit, eius.

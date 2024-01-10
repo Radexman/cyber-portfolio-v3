@@ -10,7 +10,7 @@ describe('SingleTile component should', () => {
     value: 'Value',
   };
 
-  test('render correctly', () => {
+  test('render correctly label and value props', () => {
     render(<SingleTile label={mockTile.label} value={mockTile.value} id={mockTile.id} />);
 
     const labelElement = screen.getByText('Label');
