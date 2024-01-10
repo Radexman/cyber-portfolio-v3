@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import tileLabels from '../../TileLabels';
+import tileLabels from '../../tileLabels';
 import { LabelsTypes } from '../../Types/labels.types';
 import SingleTile from '../SingleTile/SingleTile';
 
@@ -9,7 +9,7 @@ function Stats() {
   const renderPairTiles = (tiles: LabelsTypes[]) => {
     return tiles.map((tile) => {
       const { id, label, value } = tile;
-      return <SingleTile key={id} label={label} value={value} id={0} />;
+      return <SingleTile label={label} value={value} id={id} />;
     });
   };
 

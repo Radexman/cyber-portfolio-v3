@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom';
-// import { FaLongArrowAltRight as Arrow } from 'react-icons/fa';
 import { useState } from 'react';
 import resources from '../../resources';
 import { ResourceTypes } from '../../Types/resource.types';

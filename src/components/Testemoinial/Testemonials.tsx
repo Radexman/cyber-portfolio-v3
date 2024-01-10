@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
-import { FaQuoteLeft } from 'react-icons/fa';
 import testemonialsData from '../../testemonialsData';
 import { TestemonialsTypes } from '../../Types/testemonials.types';
+import SingleTestemonial from '../SingleTestemonial/SingleTestemonial';
 
 function Testemonials() {
   const [testemonial, setTestemonial] = useState<TestemonialsTypes[]>([]);
@@ -20,23 +20,7 @@ function Testemonials() {
         {testemonial.map((singleTestemonial) => {
           const { id, color, text, name, title, img } = singleTestemonial;
 
-          return (
-            <div key={id} className={`w-[90%] space-y-4 ${color} p-8`}>
-              <p className="relative text-lg">
-                <FaQuoteLeft className="absolute -left-5 -top-4" />
-                {text}
-              </p>
-              <div className="flex items-center space-x-4">
-                <div>
-                  <img src={img} className="h-12 w-12 rounded-full" alt={`${name} profile`} />
-                </div>
-                <div className="-space-y-2">
-                  <p className="text-lg">{name}</p>
-                  <p>{title}</p>
-                </div>
-              </div>
-            </div>
-          );
+          return <SingleTestemonial id={id} color={color} text={text} name={name} title={title} img={img} />;
         })}
       </div>
     </div>
