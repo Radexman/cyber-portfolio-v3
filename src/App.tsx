@@ -5,6 +5,7 @@ import About from './pages/About/About';
 import NotFound from './pages/NotFound/NotFound';
 import ProjectDisplay from './ProjectDisplay';
 import Navbar from './components/layout/Navbar/Navbar';
+import Footer from './components/layout/Footer/Footer';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/:id" element={<ProjectDisplay />} />
         <Route path="*" element={<Navigate to="/notfound" />} />
       </Routes>
+      <Footer />
     </div>
   );
 }

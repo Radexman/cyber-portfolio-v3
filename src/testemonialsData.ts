@@ -3,8 +3,8 @@ const testemonialsData = [
     id: 1,
     color: 'bg-secondary',
     text: "I enjoyed working with Radosław. My portfolio looks professional and It's well done. I am satisfied with the results of our co-operation. Website was delivered on time. Radoslaw is communicative and eager to collaborate.",
-    name: 'Jane Doe',
-    title: 'Founder and CEO',
+    name: 'Emilia',
+    title: 'Student and Language Tutor',
     img: '/assets/customer-avatar-1.jpg',
   },
   {
