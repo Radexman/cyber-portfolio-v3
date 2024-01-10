@@ -1,4 +1,4 @@
-const TileLabels = [
+const tileLabels = [
   {
     id: 1,
     label: 'Project Hours',
@@ -21,4 +21,4 @@ const TileLabels = [
   },
 ];
 
-export default TileLabels;
+export default tileLabels;

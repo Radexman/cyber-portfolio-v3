@@ -1,10 +1,10 @@
 import { useState } from 'react';
-import TileLabels from '../../TileLabels';
+import tileLabels from '../../TileLabels';
 import { LabelsTypes } from '../../Types/labels.types';
 import SingleTile from '../SingleTile/SingleTile';
 
 function Stats() {
-  const [labels] = useState<LabelsTypes[]>(TileLabels);
+  const [labels] = useState<LabelsTypes[]>(tileLabels);
 
   const renderPairTiles = (tiles: LabelsTypes[]) => {
     return tiles.map((tile) => {
