@@ -1,4 +1,4 @@
-export type TestemonialsTypes = {
+export type TestimonialsTypes = {
   id: number;
   color: string;
   text: string;

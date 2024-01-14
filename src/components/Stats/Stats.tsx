@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import tileLabels from '../../tileLabels';
-import { LabelsTypes } from '../../Types/labels.types';
+import { LabelsTypes } from '../../Types/tiles.types';
 import SingleTile from '../SingleTile/SingleTile';
 
 function Stats() {

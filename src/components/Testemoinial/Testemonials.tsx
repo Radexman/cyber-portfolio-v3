@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import testemonialsData from '../../testemonialsData';
-import { TestemonialsTypes } from '../../Types/testemonials.types';
+import { TestemonialsTypes } from '../../Types/testimonials.types';
 import SingleTestemonial from '../SingleTestemonial/SingleTestemonial';
 
 function Testemonials() {

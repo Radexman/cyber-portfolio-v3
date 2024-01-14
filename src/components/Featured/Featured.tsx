@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import resources from '../../resources';
-import { ResourceTypes } from '../../Types/resource.types';
+import { ResourceTypes } from '../../Types/project.types';
 
 function Featured() {
   const [projects] = useState<ResourceTypes[]>(resources);

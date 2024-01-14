@@ -1,10 +1,10 @@
 import { render, screen } from '@testing-library/react';
 import { describe, test } from 'vitest';
 import SingleTile from './SingleTile';
-import { LabelsTypes } from '../../Types/labels.types';
+import { TilesTypes } from '../../Types/tiles.types';
 
 describe('SingleTile component should', () => {
-  const mockTile: LabelsTypes = {
+  const mockTile: TileTypes = {
     id: 1,
     label: 'Label',
     value: 'Value',

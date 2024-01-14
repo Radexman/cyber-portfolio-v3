@@ -6,21 +6,24 @@ import NotFound from './pages/NotFound/NotFound';
 import ProjectDisplay from './ProjectDisplay';
 import Navbar from './components/layout/Navbar/Navbar';
 import Footer from './components/layout/Footer/Footer';
+import { AppContextProvider } from './context/AppContext';
 
 function App() {
   return (
-    <div className="min-h-screen bg-neutral font-cyber">
-      <Navbar />
-      <Routes>
-        <Route path="" element={<Home />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/notfound" element={<NotFound />} />
-        <Route path="/:id" element={<ProjectDisplay />} />
-        <Route path="*" element={<Navigate to="/notfound" />} />
-      </Routes>
-      <Footer />
-    </div>
+    <AppContextProvider>
+      <div className="min-h-screen bg-neutral font-cyber">
+        <Navbar />
+        <Routes>
+          <Route path="" element={<Home />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/notfound" element={<NotFound />} />
+          <Route path="/:id" element={<ProjectDisplay />} />
+          <Route path="*" element={<Navigate to="/notfound" />} />
+        </Routes>
+        <Footer />
+      </div>
+    </AppContextProvider>
   );
 }
 

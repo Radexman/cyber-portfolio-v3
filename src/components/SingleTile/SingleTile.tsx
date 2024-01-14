@@ -1,4 +1,4 @@
-import { LabelsTypes } from '../../Types/labels.types';
+import { LabelsTypes } from '../../Types/tiles.types';
 
 function SingleTile({ label, value }: LabelsTypes) {
   return (

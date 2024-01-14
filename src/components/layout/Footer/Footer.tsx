@@ -57,7 +57,7 @@ function Footer() {
               </a>
             </li>
             <li>
-              <a href="" className="hover:underline">
+              <a href="google" className="hover:underline">
                 CV
               </a>
             </li>

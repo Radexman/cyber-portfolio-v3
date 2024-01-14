@@ -1,4 +1,4 @@
-export type ResourceTypes = {
+export type ProjectTypes = {
   id: number;
   name: string;
   details: string;
