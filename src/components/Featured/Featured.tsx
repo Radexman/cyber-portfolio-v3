@@ -1,10 +1,9 @@
 import { Link } from 'react-router-dom';
-import { useState } from 'react';
-import resources from '../../resources';
-import { ResourceTypes } from '../../Types/project.types';
+import { useContext } from 'react';
+import AppContext from '../../context/AppContext';
 
 function Featured() {
-  const [projects] = useState<ResourceTypes[]>(resources);
+  const { projects } = useContext(AppContext);
 
   return (
     <div className="relative mt-44 min-h-screen bg-neutral md:mt-4">

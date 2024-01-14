@@ -1,7 +1,7 @@
 import { render, screen } from '@testing-library/react';
 import { describe, test } from 'vitest';
 import SingleTile from './SingleTile';
-import { TilesTypes } from '../../Types/tiles.types';
+import { TilesTypes } from '../../types/tiles.types';
 
 describe('SingleTile component should', () => {
   const mockTile: TilesTypes = {

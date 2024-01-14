@@ -1,4 +1,4 @@
-import { TilesTypes } from '../../Types/tiles.types';
+import { TilesTypes } from '../../types/tiles.types';
 
 function SingleTile({ label, value }: TilesTypes) {
   return (

@@ -1,10 +1,10 @@
 import { render, screen } from '@testing-library/react';
 import { describe, test, expect } from 'vitest';
-import SingleTestemonial from './SingleTestemonial';
-import { TestemonialsTypes } from '../../Types/testimonials.types';
+import SingleTestemonial from './SingleTestimonial';
+import { TestimonialsTypes } from '../../types/testimonials.types';
 
 describe('SingleTestemonial component should', () => {
-  const mockTestemonial: TestemonialsTypes = {
+  const mockTestemonial: TestimonialsTypes = {
     id: 1,
     color: 'bg-secondary',
     text: 'Lorem Ipsum',

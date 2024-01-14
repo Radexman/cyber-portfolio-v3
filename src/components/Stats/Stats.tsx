@@ -1,6 +1,6 @@
 import { useContext } from 'react';
 // import tileLabels from '../../tileLabels';
-import { TilesTypes } from '../../Types/tiles.types';
+import { TilesTypes } from '../../types/tiles.types';
 import SingleTile from '../SingleTile/SingleTile';
 import AppContext from '../../context/AppContext';
 
@@ -10,7 +10,7 @@ function Stats() {
   const renderPairTiles = (resources: TilesTypes[]) => {
     return resources.map((resource) => {
       const { id, label, value } = resource;
-      return <SingleTile label={label} value={value} id={id} />;
+      return <SingleTile key={id} label={label} value={value} id={id} />;
     });
   };
 

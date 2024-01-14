@@ -1,5 +1,5 @@
 import { FaQuoteLeft } from 'react-icons/fa';
-import { TestemonialsTypes } from '../../Types/testimonials.types';
+import { TestemonialsTypes } from '../../types/testimonials.types';
 
 function SingleTestemonial({ color, text, img, name, title }: TestemonialsTypes) {
   return (
