@@ -4,7 +4,7 @@ import SingleTile from './SingleTile';
 import { TilesTypes } from '../../Types/tiles.types';
 
 describe('SingleTile component should', () => {
-  const mockTile: TileTypes = {
+  const mockTile: TilesTypes = {
     id: 1,
     label: 'Label',
     value: 'Value',

@@ -1,14 +1,15 @@
-import { useState } from 'react';
-import tileLabels from '../../tileLabels';
-import { LabelsTypes } from '../../Types/tiles.types';
+import { useContext } from 'react';
+// import tileLabels from '../../tileLabels';
+import { TilesTypes } from '../../Types/tiles.types';
 import SingleTile from '../SingleTile/SingleTile';
+import AppContext from '../../context/AppContext';
 
 function Stats() {
-  const [labels] = useState<LabelsTypes[]>(tileLabels);
+  const { tiles } = useContext(AppContext);
 
-  const renderPairTiles = (tiles: LabelsTypes[]) => {
-    return tiles.map((tile) => {
-      const { id, label, value } = tile;
+  const renderPairTiles = (resources: TilesTypes[]) => {
+    return resources.map((resource) => {
+      const { id, label, value } = resource;
       return <SingleTile label={label} value={value} id={id} />;
     });
   };
@@ -20,8 +21,8 @@ function Stats() {
           <p className="text-8xl text-secondary-content">2+</p>
           <p className="text-2xl">Years Experience</p>
         </div>
-        <div className="flex w-[90%] flex-col space-y-8 md:w-1/3">{renderPairTiles(labels.slice(0, 2))}</div>
-        <div className="w-[90%] flex-col space-y-8 md:w-1/3">{renderPairTiles(labels.slice(2, 4))}</div>
+        <div className="flex w-[90%] flex-col space-y-8 md:w-1/3">{renderPairTiles(tiles.slice(0, 2))}</div>
+        <div className="w-[90%] flex-col space-y-8 md:w-1/3">{renderPairTiles(tiles.slice(2, 4))}</div>
       </div>
     </div>
   );
