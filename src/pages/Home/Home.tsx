@@ -1,5 +1,5 @@
 import Contact from '../../components/Contact/Contact';
-import Featured from '../../components/Featured/Featured';
+import Featured from '../../components/FeaturedProjects/FeaturedProjects';
 import Hero from '../../components/Hero/Hero';
 import Perks from '../../components/Perks/Perks';
 import Testemonials from '../../components/Testimoinial/Testimonials';

@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { useContext } from 'react';
 import AppContext from '../../context/AppContext';
+import SingleProject from '../SingleProject/SingleProject';
 
 function Featured() {
   const { projects } = useContext(AppContext);
@@ -27,25 +28,7 @@ function Featured() {
         <div className="mt-16 space-y-2">
           <div className="grid grid-cols-1 gap-y-10 md:grid-cols-2 md:grid-rows-2 md:gap-y-12 lg:gap-x-32 xl:gap-x-56">
             {projects.map((project) => (
-              <div key={project.id} className="cyber-tile md:cyber-tile-big mx-auto w-[80%] md:w-full">
-                <div className="bg-primary p-5">
-                  <img src={project.imageUrl} alt={`${project.name} landing page`} className="block h-full w-full" />
-                  <div className="mt-2 space-y-2">
-                    <p className="text-xl uppercase text-base-100">{project.name}</p>
-                    <p className="text-base-100">{project.summary}</p>
-                    <Link to={`/${project.id}`} className="group">
-                      <button
-                        type="button"
-                        className="cyber-button-small bg-red fg-white z-30 -ml-5 mt-2 scale-75 lg:-ml-0 lg:scale-100"
-                      >
-                        Learn More
-                        <span className="glitchtext">{project.name}</span>
-                        <span className="tag">{`PR${project.id}`}</span>
-                      </button>
-                    </Link>
-                  </div>
-                </div>
-              </div>
+              <SingleProject project={project} />
             ))}
           </div>
         </div>
