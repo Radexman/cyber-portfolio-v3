@@ -1,11 +1,11 @@
 import { Link } from 'react-router-dom';
-import { SingleProjectProps } from './SingleProject.types';
+import { SingleProjectProps } from './SingleProjectProps.types';
 
 function SingleProject({ project }: SingleProjectProps) {
   const { id, name, summary, imageUrl } = project;
 
   return (
-    <div key={id} className="cyber-tile md:cyber-tile-big mx-auto w-[80%] md:w-full">
+    <div data-testid="project-container" key={id} className="cyber-tile md:cyber-tile-big mx-auto w-[80%] md:w-full">
       <div className="bg-primary p-5">
         <img src={imageUrl} alt={`${name} landing page`} className="block h-full w-full" />
         <div className="mt-2 space-y-2">
