@@ -1,17 +1,13 @@
 import { Link } from 'react-router-dom';
-import logo from '../../../assets/chip.svg';
 
 function Footer() {
   return (
     <div className="bg-primary">
       <footer className="container footer mx-auto mt-16 p-10 text-base-100">
-        <aside>
-          <img src={logo} alt="" className="w-16 rotate-90" />
-          <p className="">
-            Portfolio Radosław Siek
-            <br />
-            React Frontend Developer
-          </p>
+        <aside className="text-lg">
+          <p className="">Portfolio Radosław Siek</p>
+          <p className="text-secondary-content">React Frontend Developer</p>
+          {/* <img src={logo} alt="" className="w-12 rotate-90" /> */}
         </aside>
         <nav>
           <header className="footer-title">Menu</header>
@@ -57,8 +53,8 @@ function Footer() {
               </a>
             </li>
             <li>
-              <a href="google" className="hover:underline">
-                CV
+              <a href="src\assets\cv-radosław-siek.pdf" target="_blank" className="hover:underline">
+                Download CV
               </a>
             </li>
           </ul>
