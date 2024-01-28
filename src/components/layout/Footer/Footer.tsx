@@ -3,11 +3,10 @@ import { Link } from 'react-router-dom';
 function Footer() {
   return (
     <div className="bg-primary">
-      <footer className="container footer mx-auto mt-16 p-10 text-base-100">
+      <footer className="container footer mx-auto mt-16  bg-primary p-10 text-base-100">
         <aside className="text-lg">
           <p className="">Portfolio Radosław Siek</p>
           <p className="text-secondary-content">React Frontend Developer</p>
-          {/* <img src={logo} alt="" className="w-12 rotate-90" /> */}
         </aside>
         <nav>
           <header className="footer-title">Menu</header>

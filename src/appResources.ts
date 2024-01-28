@@ -4,7 +4,8 @@ export const projectsData = [
     name: 'Overachiever',
     details: 'This project is Overachiever',
     summary:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam dolorem doloribus delectus velit est commodi. Quibusdam dolorem doloribus delectus velit est commodi.',
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, odit sint quam voluptas repellendus dolor eos id quasi tempore aliquam maxime. Aspernatur in sed vel non doloribus ducimus, et blanditiis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, odit sint quam voluptas repellendus dolor eos id quasi tempore aliquam maxime. Aspernatur in sed vel non doloribus ducimus, et blanditiis!',
+
     imageUrl: '/assets/project-1.png',
   },
   {
@@ -12,7 +13,7 @@ export const projectsData = [
     name: 'Github Finder',
     details: 'This project is Github Finder',
     summary:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam dolorem doloribus delectus velit est commodi. Quibusdam dolorem doloribus delectus velit est commodi.',
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, odit sint quam voluptas repellendus dolor eos id quasi tempore aliquam maxime. Aspernatur in sed vel non doloribus ducimus, et blanditiis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, odit sint quam voluptas repellendus dolor eos id quasi tempore aliquam maxime. Aspernatur in sed vel non doloribus ducimus, et blanditiis!',
     imageUrl: '/assets/project-2.png',
   },
   {
@@ -20,7 +21,7 @@ export const projectsData = [
     name: 'Shortly',
     details: 'This is Shortly',
     summary:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam dolorem doloribus delectus velit est commodi. Quibusdam dolorem doloribus delectus velit est commodi.',
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, odit sint quam voluptas repellendus dolor eos id quasi tempore aliquam maxime. Aspernatur in sed vel non doloribus ducimus, et blanditiis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, odit sint quam voluptas repellendus dolor eos id quasi tempore aliquam maxime. Aspernatur in sed vel non doloribus ducimus, et blanditiis!',
     imageUrl: '/assets/project-3.png',
   },
   {
@@ -28,7 +29,7 @@ export const projectsData = [
     name: 'Fylo',
     details: 'This is Fylo',
     summary:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam dolorem doloribus delectus velit est commodi. Quibusdam dolorem doloribus delectus velit est commodi.',
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, odit sint quam voluptas repellendus dolor eos id quasi tempore aliquam maxime. Aspernatur in sed vel non doloribus ducimus, et blanditiis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, odit sint quam voluptas repellendus dolor eos id quasi tempore aliquam maxime. Aspernatur in sed vel non doloribus ducimus, et blanditiis!',
     imageUrl: '/assets/project-4.png',
   },
 ];
