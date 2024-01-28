@@ -11,7 +11,7 @@ function Testemonials() {
         <h2 className="text-3xl">Testemonials</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, molestias?</p>
       </div>
-      <div className="flex flex-col items-center space-x-0 space-y-8 md:flex-row md:space-x-8 md:space-y-0">
+      <div className="flex flex-col items-start space-x-0 space-y-8 md:flex-row md:space-x-8 md:space-y-0">
         {testimonials.map((testimonial) => {
           const { id, color, text, name, title, img } = testimonial;
 

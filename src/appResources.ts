@@ -68,10 +68,10 @@ export const testimonialsData = [
   {
     id: 2,
     color: 'bg-primary',
-    text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos quibusdam impedit harum, eum est fugiat, ut et nulla aut nisi, velit laboriosam amet obcaecati itaque! Cumque aliquid pariatur culpa.',
-    name: 'Jane Doe',
-    title: 'Executive Produces',
-    img: '/assets/customer-avatar-2.jpg',
+    text: 'We are content with the results of my cooperation with Radosław. The website presents well. It was done according to the guidelines. Everything was finished in the foreseen timeframes. Communication during the project-making process was at the highest level.',
+    name: 'Garden Complex',
+    title: 'Garden Canopies Company',
+    img: '/assets/customer-avatar-2.png',
   },
   {
     id: 3,
