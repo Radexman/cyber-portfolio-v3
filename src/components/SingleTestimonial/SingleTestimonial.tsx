@@ -10,7 +10,7 @@ function SingleTestemonial({ color, text, img, name, title, id }: TestimonialsTy
       </p>
       <div className="flex items-center space-x-4">
         <div className="h-12 w-12">
-          <img src={img} className={`customer-avatar rounded-full ${id === 2 && 'mt-3'}`} alt={`${name} profile`} />
+          <img src={img} className={`customer-avatar rounded-full ${id === 2 && 'mt-3'}`} alt={`${name} avatar`} />
         </div>
         <div className="-space-y-1">
           <p className="text-lg">{name}</p>

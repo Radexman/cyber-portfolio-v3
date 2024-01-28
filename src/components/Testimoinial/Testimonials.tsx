@@ -8,7 +8,7 @@ function Testemonials() {
   return (
     <div className="container relative mx-auto text-base-100">
       <div className="mx-6 my-10 flex flex-col items-center text-center md:mx-0 md:items-start md:text-left">
-        <h2 className="text-3xl">Testemonials</h2>
+        <h2 className="text-3xl">Testimonials</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, molestias?</p>
       </div>
       <div className="flex flex-col items-start space-x-0 space-y-8 md:flex-row md:space-x-8 md:space-y-0">

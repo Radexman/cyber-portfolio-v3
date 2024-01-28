@@ -76,9 +76,9 @@ export const testimonialsData = [
   {
     id: 3,
     color: 'bg-primary',
-    text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos quibusdam impedit harum, eum est fugiat, ut et nulla aut nisi, velit laboriosam amet obcaecati itaque! Cumque aliquid pariatur culpa.',
-    name: 'Jane Doe',
+    text: 'Radek proved to be professional in every way in offering and designing our website. Through attention to detail and attention to customer satisfaction, Radek proved a high level of professionalism.',
+    name: 'Julia',
     title: 'Founder and CFO',
-    img: 'https://randomuser.me/api/portraits/women/3.jpg',
+    img: '/assets/customer-avatar-3.jpg',
   },
 ];

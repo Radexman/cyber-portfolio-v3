@@ -1,5 +1,5 @@
 import { useParams } from 'react-router-dom';
-import resources from './resources';
+import resources from '../../resources';
 
 function ProjectDisplay() {
   const { id } = useParams();

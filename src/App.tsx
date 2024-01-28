@@ -3,7 +3,7 @@ import Home from './pages/Home/Home';
 import Projects from './pages/Projects/Projects';
 import About from './pages/About/About';
 import NotFound from './pages/NotFound/NotFound';
-import ProjectDisplay from './ProjectDisplay';
+import ProjectDisplay from './pages/ProjectDisplay/ProjectDisplay';
 import Navbar from './components/layout/Navbar/Navbar';
 import Footer from './components/layout/Footer/Footer';
 import { AppContextProvider } from './context/AppContext';
