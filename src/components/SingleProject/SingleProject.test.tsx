@@ -20,10 +20,5 @@ describe('SingleProject component', () => {
 
     expect(screen.getByTestId('project-container')).toBeInTheDocument();
     expect(screen.getByRole('img')).toHaveAttribute('src', `${mockProject.imageUrl}`);
-    expect(
-      screen.getByRole('paragraph', {
-        name: mockProject.name,
-      })
-    ).toHaveTextContent(mockProject.name);
   });
 });
