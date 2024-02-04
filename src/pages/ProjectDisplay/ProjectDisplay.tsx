@@ -21,14 +21,7 @@ function ProjectDisplay() {
             </div>
             <div className="flex w-full flex-col justify-start space-y-2 lg:w-2/3">
               <h1 className="text-5xl">{resourceName}</h1>
-              <div className="flex flex-wrap gap-1">
-                <div className="badge badge-warning badge-outline">Frontend</div>
-                <div className="badge badge-secondary badge-outline">React</div>
-                <div className="badge badge-info badge-outline">TypeScript</div>
-                <div className="badge badge-info badge-outline">Unit Testing</div>
-                <div className="badge badge-outline">Mobile First</div>
-                <div className="badge badge-success badge-outline">Accesibility</div>
-              </div>
+              <div className="flex flex-wrap gap-1">{/* Map Tags */}</div>
               <p className="pt-2 text-justify lg:text-left">{resourceSummary}</p>
               <div className="flex items-center justify-center lg:items-end lg:justify-end">
                 <button

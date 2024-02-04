@@ -7,6 +7,7 @@ export const projectsData = [
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, odit sint quam voluptas repellendus dolor eos id quasi tempore aliquam maxime. Aspernatur in sed vel non doloribus ducimus, et blanditiis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, odit sint quam voluptas repellendus dolor eos id quasi tempore aliquam maxime. Aspernatur in sed vel non doloribus ducimus, et blanditiis!',
 
     imageUrl: '/assets/project-1.png',
+    tags: ['Frontend', 'React', 'TypeScript', 'Unit Testing'],
   },
   {
     id: 2,
@@ -15,6 +16,7 @@ export const projectsData = [
     summary:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, odit sint quam voluptas repellendus dolor eos id quasi tempore aliquam maxime. Aspernatur in sed vel non doloribus ducimus, et blanditiis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, odit sint quam voluptas repellendus dolor eos id quasi tempore aliquam maxime. Aspernatur in sed vel non doloribus ducimus, et blanditiis!',
     imageUrl: '/assets/project-2.png',
+    tags: ['Frontend', 'React', 'TypeScript', 'Unit Testing'],
   },
   {
     id: 3,
@@ -23,6 +25,7 @@ export const projectsData = [
     summary:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, odit sint quam voluptas repellendus dolor eos id quasi tempore aliquam maxime. Aspernatur in sed vel non doloribus ducimus, et blanditiis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, odit sint quam voluptas repellendus dolor eos id quasi tempore aliquam maxime. Aspernatur in sed vel non doloribus ducimus, et blanditiis!',
     imageUrl: '/assets/project-3.png',
+    tags: ['Frontend', 'React', 'TypeScript', 'Unit Testing'],
   },
   {
     id: 4,
@@ -31,6 +34,7 @@ export const projectsData = [
     summary:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, odit sint quam voluptas repellendus dolor eos id quasi tempore aliquam maxime. Aspernatur in sed vel non doloribus ducimus, et blanditiis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, odit sint quam voluptas repellendus dolor eos id quasi tempore aliquam maxime. Aspernatur in sed vel non doloribus ducimus, et blanditiis!',
     imageUrl: '/assets/project-4.png',
+    tags: ['Frontend', 'React', 'TypeScript', 'Unit Testing'],
   },
 ];
 
