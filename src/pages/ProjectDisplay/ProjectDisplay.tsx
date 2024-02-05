@@ -7,9 +7,9 @@ function ProjectDisplay() {
   const resourceId = id ? parseInt(id, 10) - 1 : undefined;
 
   const resourceName = resourceId !== undefined && projectsData[resourceId] ? projectsData[resourceId].name : '';
-  // const resourceDetails = resourceId !== undefined && projectsData[resourceId] ? projectsData[resourceId].details : '';
   const resourceImage = resourceId !== undefined && projectsData[resourceId] ? projectsData[resourceId].imageUrl : '';
   const resourceSummary = resourceId !== undefined && projectsData[resourceId] ? projectsData[resourceId].summary : '';
+  const resourceTags = resourceId !== undefined && projectsData[resourceId] ? projectsData[resourceId].tags : '';
 
   return (
     <div className="container mx-auto">
@@ -21,7 +21,17 @@ function ProjectDisplay() {
             </div>
             <div className="flex w-full flex-col justify-start space-y-2 lg:w-2/3">
               <h1 className="text-5xl">{resourceName}</h1>
-              <div className="flex flex-wrap gap-1">{/* Map Tags */}</div>
+              <div className="flex flex-wrap gap-1">
+                {Array.isArray(resourceTags) ? (
+                  resourceTags.map((tag) => (
+                    <p className="badge" key={resourceId}>
+                      {tag}
+                    </p>
+                  ))
+                ) : (
+                  <p>No project tags available</p>
+                )}
+              </div>
               <p className="pt-2 text-justify lg:text-left">{resourceSummary}</p>
               <div className="flex items-center justify-center lg:items-end lg:justify-end">
                 <button
