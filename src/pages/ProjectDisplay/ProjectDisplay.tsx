@@ -20,11 +20,11 @@ function ProjectDisplay() {
               <img src={resourceImage} alt={`${resourceName} landing page`} />
             </div>
             <div className="flex w-full flex-col justify-start space-y-2 lg:w-2/3">
-              <h1 className="text-5xl">{resourceName}</h1>
-              <div className="flex flex-wrap gap-1">
+              <h1 className="text-center text-5xl lg:text-left">{resourceName}</h1>
+              <div className="flex flex-wrap justify-center gap-1 lg:justify-start">
                 {Array.isArray(resourceTags) ? (
                   resourceTags.map((tag) => (
-                    <p className="badge" key={resourceId}>
+                    <p className="badge badge-outline" key={resourceId}>
                       {tag}
                     </p>
                   ))
@@ -36,7 +36,7 @@ function ProjectDisplay() {
               <div className="flex items-center justify-center lg:items-end lg:justify-end">
                 <button
                   type="button"
-                  className="cyber-button-small bg-red fg-white z-30 -ml-5 mt-2 scale-75 lg:-ml-0 lg:scale-90"
+                  className="cyber-button-small md:cyber-button bg-red fg-white z-30 -ml-5 mt-2 scale-75 lg:-ml-0"
                 >
                   Visit Page
                   <span className="glitchtext">{resourceName}</span>
@@ -44,7 +44,7 @@ function ProjectDisplay() {
                 </button>
                 <button
                   type="button"
-                  className="cyber-button-small bg-red fg-white z-30 -ml-5 mt-2 scale-75 lg:-ml-0 lg:scale-90"
+                  className="cyber-button-small md:cyber-button bg-red fg-white z-30 -ml-5 mt-2 scale-75 lg:-ml-0"
                 >
                   Visit Repo
                   <span className="glitchtext">{resourceName}</span>

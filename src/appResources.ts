@@ -4,7 +4,7 @@ export const projectsData = [
     name: 'Overachiever',
     details: 'This project is Overachiever',
     summary:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, odit sint quam voluptas repellendus dolor eos id quasi tempore aliquam maxime. Aspernatur in sed vel non doloribus ducimus, et blanditiis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, odit sint quam voluptas repellendus dolor eos id quasi tempore aliquam maxime. Aspernatur in sed vel non doloribus ducimus, et blanditiis!',
+      'The Overachiever app serves as a versatile platform where users can seamlessly create, customize, and prioritize tasks. The UI dynamically reflects these actions, surpassing standard to-do apps by integrating a dedicated statistics section. Here, users meticulously track their daily progress through task engagement and completion.',
 
     imageUrl: '/assets/project-1.png',
     tags: ['Frontend', 'React', 'TypeScript', 'Tailwind CSS', 'Daisy UI', 'Unit Testing'],
@@ -14,7 +14,7 @@ export const projectsData = [
     name: 'Github Finder',
     details: 'This project is Github Finder',
     summary:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, odit sint quam voluptas repellendus dolor eos id quasi tempore aliquam maxime. Aspernatur in sed vel non doloribus ducimus, et blanditiis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, odit sint quam voluptas repellendus dolor eos id quasi tempore aliquam maxime. Aspernatur in sed vel non doloribus ducimus, et blanditiis!',
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, odit sint quam voluptas repellendus dolor eos id quasi tempore aliquam maxime. Aspernatur in sed vel non doloribus ducimus, et blanditiis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, odit sint quam voluptas',
     imageUrl: '/assets/project-2.png',
     tags: ['Frontend', 'React', 'TypeScript', 'Tailwind CSS', 'Daisy UI'],
   },
@@ -73,7 +73,7 @@ export const testimonialsData = [
   {
     id: 2,
     color: 'bg-primary',
-    text: 'We are content with the results of my cooperation with Radosław. The website presents well. It was done according to the guidelines. Everything was finished in the foreseen timeframes. Communication during the project-making process was at the highest level.',
+    text: 'We are content with the results of our cooperation with Radosław. The website presents well. It was done according to the guidelines. Everything was finished in the foreseen timeframes. Communication during the project-making process was at the highest level.',
     name: 'Garden Complex',
     title: 'Garden Canopies Company',
     img: '/assets/customer-avatar-2.png',

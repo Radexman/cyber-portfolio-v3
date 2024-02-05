@@ -10,7 +10,7 @@ function SingleProject({ project }: SingleProjectProps) {
         <img src={imageUrl} alt={`${name} landing page`} className="block h-full w-full" />
         <div className="mt-2 space-y-2">
           <p className="text-xl uppercase text-base-100">{name}</p>
-          <p className="text-base-100">{summary}</p>
+          <p className="text-justify text-base-100 md:text-left">{summary}</p>
           <Link to={`/${id}`} className="group">
             <button
               type="button"
