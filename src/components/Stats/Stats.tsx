@@ -1,5 +1,4 @@
 import { useContext } from 'react';
-// import tileLabels from '../../tileLabels';
 import { TilesTypes } from '../../types/tiles.types';
 import SingleTile from '../SingleTile/SingleTile';
 import AppContext from '../../context/AppContext';
