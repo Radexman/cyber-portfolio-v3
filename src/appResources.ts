@@ -83,7 +83,7 @@ export const testimonialsData = [
     color: 'bg-primary',
     text: 'Radek proved to be professional in every way in offering and designing our website. Through attention to detail and attention to customer satisfaction, Radek proved a high level of professionalism.',
     name: 'Julia',
-    title: 'Founder and CFO',
+    title: 'Entrepreneur & CEO',
     img: '/assets/customer-avatar-3.jpg',
   },
 ];
