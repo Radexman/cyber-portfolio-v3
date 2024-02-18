@@ -39,8 +39,8 @@ describe('App component should', () => {
     expect(
       screen.getByRole('heading', {
         level: 1,
-        name: 'About',
+        name: 'Bio',
       })
-    ).toHaveTextContent('About');
+    ).toHaveTextContent('Bio');
   });
 });
