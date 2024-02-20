@@ -1,4 +1,4 @@
-import { FaReact as ReactIcon } from 'react-icons/fa';
+// import { FaReact as ReactIcon } from 'react-icons/fa';
 
 function QualificationsSection() {
   return (
