@@ -52,7 +52,7 @@ function Footer() {
               </a>
             </li>
             <li>
-              <a href="src\assets\cv-radosław-siek.pdf" target="_blank" className="hover:underline">
+              <a href="src\assets\documents\cv-radosław-siek.pdf" target="_blank" className="hover:underline">
                 Download CV
               </a>
             </li>
