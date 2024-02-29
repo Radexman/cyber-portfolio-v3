@@ -7,7 +7,7 @@ function About() {
   return (
     <div className="min-h-screen">
       <div className="container mx-auto space-y-6 text-primary-content">
-        <div className="grid grid-cols-2 gap-6 lg:grid-cols-3">
+        <div className="grid grid-cols-2 gap-10 lg:grid-cols-3">
           <div className="flex h-60 items-center justify-center">
             <div className="avatar w-[50%]">
               <div className="rounded">
@@ -31,7 +31,7 @@ function About() {
           <TechStackSection />
           <QualificationsSection />
           <ExperienceSection />
-          <div className="flex flex-col items-center justify-between bg-secondary p-4 text-center shadow-xl transition hover:scale-105 md:items-start md:p-6 md:text-left">
+          <div className="col-span-auto flex flex-col items-center justify-between bg-secondary p-4 text-center shadow-xl transition hover:scale-105 md:col-span-2 md:items-start md:p-6 md:text-left">
             <h3 className="text-2xl">Experience</h3>
             <div className="pt-4">
               <p className="text-lg">Commercial Work</p>
