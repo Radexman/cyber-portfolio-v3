@@ -19,12 +19,12 @@ function Perks() {
               <img src={programmingIcon} className="w-14" alt="Programming on a desktop" />
               <h2 className="text-3xl">Programmer</h2>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, eius. Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Reprehenderit, eius.
+                I specialize in React framework to create scalable and responsive web apps. Creating engaging user
+                interfaces is my passion.
               </p>
               <Link to="/about" className="group">
                 <div className="flex items-center space-x-3 text-secondary-content">
-                  <p className="text-lg uppercase tracking-widest">Know More</p>
+                  <p className="text-lg uppercase tracking-widest">Read More</p>
                   <span className="group-hover:animate-glitch-4">
                     <Arrow size={20} />
                   </span>
@@ -35,12 +35,12 @@ function Perks() {
               <img src={studyIcon} className="w-14" alt="Programming on a desktop" />
               <h2 className="text-3xl">CS Student</h2>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, eius. Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Reprehenderit, eius.
+                As a part-time Computer Science student, I not only love deepening my horizons but also relish the
+                chance to interact with like-minded individuals.
               </p>
               <Link to="/about">
                 <div className="group flex items-center space-x-3">
-                  <p className="text-lg font-bold uppercase tracking-widest text-primary-content">Know More</p>
+                  <p className="text-lg font-bold uppercase tracking-widest text-primary-content">Read More</p>
                   <span className="group-hover:animate-glitch-4">
                     <Arrow size={20} />
                   </span>
@@ -51,12 +51,12 @@ function Perks() {
               <img src={freelancerIcon} className="w-14" alt="Programming on a desktop" />
               <h2 className="text-3xl">Freelancer</h2>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, eius. Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Reprehenderit, eius.
+                As a freelancer, I&apos;ve excelled in professional settings, delivering desired projects and refining
+                my customer communication skills.
               </p>
               <Link to="/about">
                 <div className="group flex items-center space-x-3 text-secondary-content">
-                  <p className="text-lg font-bold uppercase tracking-widest">Know More</p>
+                  <p className="text-lg font-bold uppercase tracking-widest">Read More</p>
                   <span className="group-hover:animate-glitch-4">
                     <Arrow size={20} />
                   </span>

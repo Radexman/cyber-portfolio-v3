@@ -18,8 +18,7 @@ function Hero() {
             <span className="cyber-glitch-3">_</span>
           </h1>
           <p className="pb-4 text-xl">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed accumsan arcu eu purus mattis, quis ultricies
-            velit molestie.
+            Crafting captivating web experiences is my forte, bringing life to every page and app I create.
           </p>
           <Link to="/projects">
             <button type="button" className="cyber-button bg-red fg-white z-30">

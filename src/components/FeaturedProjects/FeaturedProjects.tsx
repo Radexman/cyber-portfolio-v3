@@ -13,7 +13,10 @@ function Featured() {
         <div className="mx-5 flex flex-col items-center justify-center text-center md:mx-0 md:flex-row md:justify-between md:text-left">
           <div className="flex flex-col space-y-2 text-base-100">
             <h2 className="text-3xl">Featured Projcts</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, ipsa!</p>
+            <p>
+              Explore a selection of my recent work and standout creations, showcasing my latest projects and top-notch
+              accomplishments.
+            </p>
           </div>
           <div>
             <Link to="/projects">
