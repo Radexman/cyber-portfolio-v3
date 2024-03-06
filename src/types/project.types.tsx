@@ -5,4 +5,6 @@ export type ProjectTypes = {
   imageUrl: string;
   sentence: string;
   tags: string[];
+  pageLink: string;
+  repoLink: string;
 };

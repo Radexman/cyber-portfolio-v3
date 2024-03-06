@@ -52,8 +52,18 @@ function Footer() {
               </a>
             </li>
             <li>
+              <a
+                href="https://www.frontendmentor.io/profile/Radexman"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:underline"
+              >
+                Frontend Mentor
+              </a>
+            </li>
+            <li>
               <a href="src\assets\documents\cv-radosław-siek.pdf" target="_blank" className="hover:underline">
-                Download CV
+                Preview CV
               </a>
             </li>
           </ul>

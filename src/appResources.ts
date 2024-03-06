@@ -9,6 +9,8 @@ export const projectsData = [
     sentence:
       'The Overachiever app serves as a versatile platform where users can seamlessly create, customize, and prioritize tasks.',
     tags: ['Frontend', 'React', 'TypeScript', 'Tailwind CSS', 'Daisy UI', 'Jest', 'RTL', 'Vitest'],
+    pageLink: 'https://overachiever-app.netlify.app/',
+    repoLink: 'https://github.com/Radexman/Overachiever',
   },
   {
     id: 2,
@@ -19,6 +21,8 @@ export const projectsData = [
     sentence:
       'GitHub Finder is a web app that enables users to browse through GitHub users, check their names, locations, and bios.',
     tags: ['Frontend', 'React', 'TypeScript', 'Tailwind CSS', 'Daisy UI'],
+    pageLink: 'https://github-finder-app-react-tailwindcss.netlify.app/',
+    repoLink: 'https://github.com/Radexman/github-finder',
   },
   {
     id: 3,
@@ -26,15 +30,23 @@ export const projectsData = [
     summary:
       'This project is a Frontend Mentor challenge website integrating a link shortener API. Employing the Tailwind CSS framework, I meticulously crafted custom variables tailored to optimize page performance. Following a mobile-first approach, the website is designed to ensure full responsiveness across all devices. The link shortener form mandates a valid URL entry; failure to comply prompts an error message. Upon submission of a valid URL, a brief loading screen appears, swiftly vanishing upon successful retrieval of the API response. The resulting data is seamlessly appended to the DOM for user interaction.',
     imageUrl: '/assets/project-3.png',
-    tags: ['Frontend', 'HTML', 'Tailwind CSS', 'JavaScript', 'Fetch API'],
+    sentence:
+      'This project is a Frontend Mentor challenge website integrating a link shortener API, employing the Tailwind CSS framework.',
+    tags: ['Frontend', 'JavaScript', 'Tailwind CSS', 'HTML', 'Fetch API'],
+    pageLink: 'https://shortly001.netlify.app/',
+    repoLink: 'https://github.com/Radexman/shortly',
   },
   {
     id: 4,
     name: 'Fylo',
     summary:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, odit sint quam voluptas repellendus dolor eos id quasi tempore aliquam maxime. Aspernatur in sed vel non doloribus ducimus, et blanditiis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, odit sint quam voluptas repellendus dolor eos id quasi tempore aliquam maxime. Aspernatur in sed vel non doloribus ducimus, et blanditiis!',
+      'This project, named Fylo, represents a meticulous rendition of the Fylo service website as per the specifications outlined in the Frontend Mentor challenge. Leveraging Tailwind CSS, JavaScript, and HTML, I meticulously crafted custom variables tailored to the designated theme, ensuring a faithful reproduction of the original design.',
     imageUrl: '/assets/project-4.png',
-    tags: ['Frontend', 'React', 'TypeScript', 'Unit Testing'],
+    sentence:
+      'This project represents a meticulous rendition of the Fylo service website as per the specifications outlined in the Frontend Mentor challenge.',
+    tags: ['Frontend', 'JavaScript', 'Tailwind CSS', 'HTML'],
+    pageLink: 'https://fylo001.netlify.app/',
+    repoLink: 'https://github.com/Radexman/fylo/tree/master',
   },
 ];
 

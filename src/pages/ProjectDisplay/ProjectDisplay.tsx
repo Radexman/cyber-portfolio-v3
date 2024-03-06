@@ -10,6 +10,10 @@ function ProjectDisplay() {
   const resourceImage = resourceId !== undefined && projectsData[resourceId] ? projectsData[resourceId].imageUrl : '';
   const resourceSummary = resourceId !== undefined && projectsData[resourceId] ? projectsData[resourceId].summary : '';
   const resourceTags = resourceId !== undefined && projectsData[resourceId] ? projectsData[resourceId].tags : '';
+  const resourcePageLink =
+    resourceId !== undefined && projectsData[resourceId] ? projectsData[resourceId].pageLink : '';
+  const resourceRepoLink =
+    resourceId !== undefined && projectsData[resourceId] ? projectsData[resourceId].repoLink : '';
 
   return (
     <div className="container mx-auto">
@@ -34,22 +38,26 @@ function ProjectDisplay() {
               </div>
               <p className="pt-2 text-justify lg:text-left">{resourceSummary}</p>
               <div className="flex items-center justify-center lg:items-end lg:justify-end">
-                <button
-                  type="button"
-                  className="cyber-button-small md:cyber-button bg-red fg-white z-30 -ml-5 mt-2 scale-75 lg:-ml-0"
-                >
-                  Visit Page
-                  <span className="glitchtext">{resourceName}</span>
-                  <span className="tag">{`PR${id}`}</span>
-                </button>
-                <button
-                  type="button"
-                  className="cyber-button-small md:cyber-button bg-red fg-white z-30 -ml-5 mt-2 scale-75 lg:-ml-0"
-                >
-                  Visit Repo
-                  <span className="glitchtext">{resourceName}</span>
-                  <span className="tag">{`PR${id}`}</span>
-                </button>
+                <a href={resourcePageLink} target="_blank" rel="noreferrer">
+                  <button
+                    type="button"
+                    className="cyber-button-small md:cyber-button bg-red fg-white z-30 -ml-5 mt-2 scale-75 lg:-ml-0"
+                  >
+                    Visit Page
+                    <span className="glitchtext">{resourceName}</span>
+                    <span className="tag">{`PR${id}`}</span>
+                  </button>
+                </a>
+                <a href={resourceRepoLink} target="_blank" rel="noreferrer">
+                  <button
+                    type="button"
+                    className="cyber-button-small md:cyber-button bg-red fg-white z-30 -ml-5 mt-2 scale-75 lg:-ml-0"
+                  >
+                    Visit Repo
+                    <span className="glitchtext">{resourceName}</span>
+                    <span className="tag">{`PR${id}`}</span>
+                  </button>
+                </a>
               </div>
             </div>
           </div>
