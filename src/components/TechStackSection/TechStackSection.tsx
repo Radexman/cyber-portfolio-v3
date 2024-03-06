@@ -11,11 +11,11 @@ import { IoLogoCss3 as CSSIcon, IoLogoHtml5 as HTMLIcon } from 'react-icons/io';
 
 function TechStackSection() {
   return (
-    <div className="flex flex-col items-center space-y-3 bg-primary p-4 text-center shadow-xl transition hover:scale-105 md:items-start md:p-6 md:text-left">
+    <div className="flex flex-col items-center space-y-2 bg-primary p-4 text-center shadow-xl transition hover:scale-105 md:items-start md:p-6 md:text-left">
       <h3 className="text-2xl text-secondary-content">Tech Stack</h3>
+      <div className="h-[2px] w-80 bg-secondary" />
       <div>
         <p className="text-lg">Main Technologies</p>
-        <div className="h-[2px] w-80 bg-secondary" />
       </div>
       <ul className="flex space-x-3">
         <li className="flex items-center">
@@ -37,7 +37,6 @@ function TechStackSection() {
       </ul>
       <div className="pt-4">
         <p className="text-lg">All Technologies</p>
-        <div className="h-[2px] w-80 bg-secondary" />
       </div>
       <div>
         <ul className="flex flex-wrap space-x-3">
@@ -66,6 +65,10 @@ function TechStackSection() {
           <li className="flex items-center">
             <VitestIcon />
             <p className="pl-1">Vitest</p>
+          </li>
+          <li className="flex items-center">
+            <VitestIcon />
+            <p className="pl-1">ESlint</p>
           </li>
           <li className="flex items-center">
             <ViteIcon />

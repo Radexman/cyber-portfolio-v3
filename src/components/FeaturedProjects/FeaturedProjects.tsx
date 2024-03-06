@@ -30,7 +30,7 @@ function Featured() {
         </div>
         <div className="mt-16 space-y-2">
           <div className="grid grid-cols-1 gap-y-10 md:grid-cols-2 md:grid-rows-2 md:gap-y-12 lg:gap-x-32 xl:gap-x-56">
-            {projects.map((project) => (
+            {projects.slice(0, 4).map((project) => (
               <SingleProject key={project.id} project={project} />
             ))}
           </div>
