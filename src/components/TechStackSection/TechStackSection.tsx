@@ -5,6 +5,7 @@ import {
   SiJest as JestIcon,
   SiVitest as VitestIcon,
   SiVite as ViteIcon,
+  SiEslint as EslintIcon,
 } from 'react-icons/si';
 import { IoLogoJavascript as JavaScriptIcon } from 'react-icons/io5';
 import { IoLogoCss3 as CSSIcon, IoLogoHtml5 as HTMLIcon } from 'react-icons/io';
@@ -17,20 +18,20 @@ function TechStackSection() {
       <div>
         <p className="text-lg">Main Technologies</p>
       </div>
-      <ul className="flex space-x-3">
-        <li className="flex items-center">
+      <ul className="flex flex-wrap gap-3">
+        <li className="badge flex items-center">
           <ReactIcon />
           <p className="pl-1">React</p>
         </li>
-        <li className="flex items-center">
+        <li className="badge flex items-center">
           <TypeScriptIcon />
           <p className="pl-1">TypeScript</p>
         </li>
-        <li className="flex items-center">
+        <li className="badge flex items-center">
           <TailwindIcon />
           <p className="pl-1">Tailwind CSS</p>
         </li>
-        <li className="flex items-center">
+        <li className="badge flex items-center">
           <JestIcon />
           <p className="pl-1">Jest</p>
         </li>
@@ -39,42 +40,40 @@ function TechStackSection() {
         <p className="text-lg">All Technologies</p>
       </div>
       <div>
-        <ul className="flex flex-wrap space-x-3">
-          <li className="flex items-center">
+        <ul className="flex flex-wrap gap-3">
+          <li className="badge flex items-center">
             <JavaScriptIcon />
             <p className="pl-1">JavaScript</p>
           </li>
-          <li className="flex items-center">
+          <li className="badge flex items-center">
             <PythonIcon />
             <p className="pl-1">Python</p>
           </li>
-          <li className="flex items-center">
+          <li className="badge flex items-center">
             <CSSIcon />
             <p className="pl-1">CSS</p>
           </li>
-          <li className="flex items-center">
+          <li className="badge flex items-center">
             <HTMLIcon />
             <p className="pl-1">HTML</p>
           </li>
-          <li className="flex items-center">
+          <li className="badge flex items-center">
             <SASSIcon />
             <p className="pl-1">SASS</p>
           </li>
-        </ul>
-        <ul className="flex flex-wrap space-x-3">
-          <li className="flex items-center">
+          <li className="badge flex items-center">
             <VitestIcon />
             <p className="pl-1">Vitest</p>
           </li>
-          <li className="flex items-center">
-            <VitestIcon />
+          <li className="badge flex items-center">
+            <EslintIcon />
             <p className="pl-1">ESlint</p>
           </li>
-          <li className="flex items-center">
+          <li className="badge flex items-center">
             <ViteIcon />
             <p className="pl-1">Vite</p>
           </li>
-          <li className="flex items-center">
+          <li className="badge flex items-center">
             <GitIcon />
             <p className="pl-1">Git</p>
           </li>

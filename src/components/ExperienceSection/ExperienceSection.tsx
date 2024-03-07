@@ -4,15 +4,12 @@ function ExperienceSection() {
       <h3 className="text-2xl">Private Projects</h3>
       <div className="h-[2px] w-80 bg-secondary" />
       <p className="text-justify lg:text-left">
-        I have worked with both companies and individual clients to deliver their desired products. It&apos;s worth
-        mentioning my collaboration with Garten Complex company, for which I refreshed the appearance of their WordPress
-        company website and ensured accessibility and consistent branding.
-      </p>
-      <p className="text-justify lg:text-left">
-        Aside from my commercial freelance work and studying computer science and deepenning my knowledge in frontend
-        technologies in my free time I work on my private projects and solve coding challanges eg. Frontend Mentor
-        challanges. I also sometimes give code review to other users in order for them to get upper hand in making their
-        projesct even better.
+        Passionate about continuous learning and fueled by the joy of creation, I am constantly embarking on private
+        projects that serve as both educational endeavors and sources of pure enjoyment. From crafting immersive
+        experiences like my Wither RPG companion app, designed to elevate the traditional paper RPG gameplay, to
+        envisioning my next dream project—a full-stack application empowering users to login, create profiles, and
+        beyond—I pour my heart and soul into every endeavor. With a boundless enthusiasm for technology and a relentless
+        pursuit of innovation, I thrive on the journey of bringing ideas to life, one project at a time.
       </p>
     </div>
   );

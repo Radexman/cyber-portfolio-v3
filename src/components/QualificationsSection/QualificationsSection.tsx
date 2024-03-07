@@ -17,7 +17,7 @@ function QualificationsSection() {
         <li>
           <a
             className="flex items-center gap-1 hover:underline"
-            href="src\assets\documents\cv-radosław-siek.pdf"
+            href="src\assets\documents\react-certyfikat.pdf"
             target="_blank"
           >
             <ReactIcon />

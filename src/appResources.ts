@@ -49,53 +49,29 @@ export const projectsData = [
     repoLink: 'https://github.com/Radexman/fylo/tree/master',
   },
   {
-    id: 1,
-    name: 'Overachiever',
+    id: 5,
+    name: 'Language Tutor Portfolio',
     summary:
-      'The Overachiever app serves as a versatile platform where users can seamlessly create, customize, and prioritize tasks. The UI dynamically reflects these actions, surpassing standard to-do apps by integrating a dedicated statistics section. Here, users meticulously track their daily progress through task engagement and completion.',
+      "This website serves as a dynamic platform tailored specifically for Emilia Kożuch, a dedicated English teacher and avid student. Catering to both her educational pursuits and her role as an English tutor, the site provides comprehensive insights into Ms. Kożuch's background, qualifications, and the range of language services she offers. Visitors can delve into detailed information about her educational journey, teaching methodology, and the array of language classes she conducts. Additionally, the website offers seamless communication channels, guiding visitors on how to easily connect with Ms. Kożuch to explore opportunities for language learning and collaboration.",
 
-    imageUrl: '/assets/project-1.png',
+    imageUrl: 'src/assets/project-5.png',
     sentence:
-      'The Overachiever app serves as a versatile platform where users can seamlessly create, customize, and prioritize tasks.',
-    tags: ['Frontend', 'React', 'TypeScript', 'Tailwind CSS', 'Daisy UI', 'Jest', 'RTL', 'Vitest'],
-    pageLink: 'https://overachiever-app.netlify.app/',
-    repoLink: 'https://github.com/Radexman/Overachiever',
+      'This website serves as a dynamic platform tailored specifically for Emilia Kożuch, a dedicated English teacher and avid student.',
+    tags: ['Frontend', 'JavaScript', 'SASS', 'BEM Methodlogy', 'HTML', 'Daisy UI', 'Mobile First Design'],
+    pageLink: 'https://emilia-kozuch-portfolio.netlify.app/',
+    repoLink: 'https://github.com/Radexman/emilia-kozuch-portfolio/tree/main',
   },
   {
-    id: 2,
-    name: 'Github Finder',
+    id: 6,
+    name: 'Bookmark',
     summary:
-      'GitHub Finder is a web app that enables users to browse through GitHub users, check their names, locations, and bios. Users can also click on their external profiles and view their list of latest repositories that they have been working on recently. GitHub Finder utilizes the GitHub API and fetches data via async functions that follow a REST API-like structure.',
-    imageUrl: '/assets/project-2.png',
+      'This project is a frontend implementation of the Bookmark landing page design challenge from Frontend Mentor. The challenge required recreating the visual design closely, and I am proud to say that this project closely resembles the original design provided.',
+    imageUrl: 'src/assets/project-6.png',
     sentence:
-      'GitHub Finder is a web app that enables users to browse through GitHub users, check their names, locations, and bios.',
-    tags: ['Frontend', 'React', 'TypeScript', 'Tailwind CSS', 'Daisy UI'],
-    pageLink: 'https://github-finder-app-react-tailwindcss.netlify.app/',
-    repoLink: 'https://github.com/Radexman/github-finder',
-  },
-  {
-    id: 3,
-    name: 'Shortly',
-    summary:
-      'This project is a Frontend Mentor challenge website integrating a link shortener API. Employing the Tailwind CSS framework, I meticulously crafted custom variables tailored to optimize page performance. Following a mobile-first approach, the website is designed to ensure full responsiveness across all devices. The link shortener form mandates a valid URL entry; failure to comply prompts an error message. Upon submission of a valid URL, a brief loading screen appears, swiftly vanishing upon successful retrieval of the API response. The resulting data is seamlessly appended to the DOM for user interaction.',
-    imageUrl: '/assets/project-3.png',
-    sentence:
-      'This project is a Frontend Mentor challenge website integrating a link shortener API, employing the Tailwind CSS framework.',
-    tags: ['Frontend', 'JavaScript', 'Tailwind CSS', 'HTML', 'Fetch API'],
-    pageLink: 'https://shortly001.netlify.app/',
-    repoLink: 'https://github.com/Radexman/shortly',
-  },
-  {
-    id: 4,
-    name: 'Fylo',
-    summary:
-      'This project, named Fylo, represents a meticulous rendition of the Fylo service website as per the specifications outlined in the Frontend Mentor challenge. Leveraging Tailwind CSS, JavaScript, and HTML, I meticulously crafted custom variables tailored to the designated theme, ensuring a faithful reproduction of the original design.',
-    imageUrl: '/assets/project-4.png',
-    sentence:
-      'This project represents a meticulous rendition of the Fylo service website as per the specifications outlined in the Frontend Mentor challenge.',
-    tags: ['Frontend', 'JavaScript', 'Tailwind CSS', 'HTML'],
-    pageLink: 'https://fylo001.netlify.app/',
-    repoLink: 'https://github.com/Radexman/fylo/tree/master',
+      'This project is a frontend implementation of the Bookmark landing page design challenge from Frontend Mentor.',
+    tags: ['Frontend', 'Tailwind CSS', 'JavaScript', 'HTML'],
+    pageLink: 'https://bookmark001.netlify.app/',
+    repoLink: 'https://github.com/Radexman/bookmark/tree/master',
   },
 ];
 

@@ -6,12 +6,12 @@ import profilePicture from '../../assets/profile-picture.png';
 function About() {
   return (
     <div className="min-h-screen">
-      <div className="container mx-auto space-y-6 text-primary-content">
+      <div className="container  mx-auto space-y-6 text-primary-content">
         <div className="mb-14 flex flex-col items-center gap-4 bg-primary p-4 md:flex-row">
           <div>
             <div className="avatar w-40">
               <div className="rounded">
-                <img src={profilePicture} alt="Front facing young man with brown hair" />
+                <img src={profilePicture} className="brightness-75" alt="Front facing young man with brown hair" />
               </div>
             </div>
           </div>
