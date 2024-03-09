@@ -8,6 +8,10 @@ const mockProject = {
   details: 'Lorem ipsum details',
   summary: 'Lorem ipsum summary',
   imageUrl: 'url/images/jpg-1',
+  sentence: 'Sentence',
+  tags: ['Frontend', 'Backend'],
+  pageLink: 'Link',
+  repoLink: 'Link',
 };
 
 describe('SingleProject component', () => {
