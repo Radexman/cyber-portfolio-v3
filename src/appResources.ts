@@ -54,7 +54,7 @@ export const projectsData = [
     summary:
       "This website serves as a dynamic platform tailored specifically for Emilia Kożuch, a dedicated English teacher and avid student. Catering to both her educational pursuits and her role as an English tutor, the site provides comprehensive insights into Ms. Kożuch's background, qualifications, and the range of language services she offers. Visitors can delve into detailed information about her educational journey, teaching methodology, and the array of language classes she conducts. Additionally, the website offers seamless communication channels, guiding visitors on how to easily connect with Ms. Kożuch to explore opportunities for language learning and collaboration.",
 
-    imageUrl: 'src/assets/project-5.png',
+    imageUrl: '/assets/project-5.png',
     sentence:
       'This website serves as a dynamic platform tailored specifically for Emilia Kożuch, a dedicated English teacher and avid student.',
     tags: ['Frontend', 'JavaScript', 'SASS', 'BEM Methodlogy', 'HTML', 'Daisy UI', 'Mobile First Design'],
@@ -66,7 +66,7 @@ export const projectsData = [
     name: 'Bookmark',
     summary:
       'This project is a frontend implementation of the Bookmark landing page design challenge from Frontend Mentor. The challenge required recreating the visual design closely, and I am proud to say that this project closely resembles the original design provided.',
-    imageUrl: 'src/assets/project-6.png',
+    imageUrl: '/assets/project-6.png',
     sentence:
       'This project is a frontend implementation of the Bookmark landing page design challenge from Frontend Mentor.',
     tags: ['Frontend', 'Tailwind CSS', 'JavaScript', 'HTML'],
