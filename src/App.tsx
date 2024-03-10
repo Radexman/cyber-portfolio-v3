@@ -6,6 +6,7 @@ import NotFound from './pages/NotFound/NotFound';
 import ProjectDisplay from './pages/ProjectDisplay/ProjectDisplay';
 import Navbar from './components/layout/Navbar/Navbar';
 import Footer from './components/layout/Footer/Footer';
+import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 import { AppContextProvider } from './context/AppContext';
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         </Routes>
         <Footer />
       </div>
+      <ScrollToTop />
     </AppContextProvider>
   );
 }
