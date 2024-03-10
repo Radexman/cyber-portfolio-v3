@@ -15,18 +15,14 @@ function QualificationsSection() {
       </p>
       <ul className="flex flex-row gap-4 lg:flex-col lg:gap-2">
         <li>
-          <a
-            className="flex items-center gap-1 hover:underline"
-            href="src\assets\documents\react-certyfikat.pdf"
-            target="_blank"
-          >
+          <a className="flex items-center gap-1 hover:underline" href="assets\react-certyfikat.pdf" target="_blank">
             <ReactIcon />
             React
           </a>
         </li>
         <li>
           <a
-            href="src\assets\documents\javascript-certyfikat.pdf"
+            href="assets\javascript-certyfikat.pdf"
             target="_blank"
             className="flex items-center gap-1 hover:underline"
           >
@@ -35,11 +31,7 @@ function QualificationsSection() {
           </a>
         </li>
         <li>
-          <a
-            href="src\assets\documents\tailwind-certyfikat.pdf"
-            target="_blank"
-            className="flex items-center gap-1 hover:underline"
-          >
+          <a href="assets\tailwind-certyfikat.pdf" target="_blank" className="flex items-center gap-1 hover:underline">
             <TailwindIcon />
             Tailwind CSS
           </a>
