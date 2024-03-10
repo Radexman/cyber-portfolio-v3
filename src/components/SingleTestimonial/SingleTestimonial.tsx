@@ -5,7 +5,7 @@ function SingleTestemonial({ color, text, img, name, title, id }: TestimonialsTy
   return (
     <div
       data-testid="wrapper"
-      className={`w-[90%] space-y-4 ${color} max-h-[30%] p-4 transition hover:scale-105 md:p-8`}
+      className={`w-[90%] space-y-4 ${color} max-h-[30%] p-5 transition hover:scale-105 md:p-8`}
     >
       <p className="relative text-lg first-letter:text-xl">
         <FaQuoteLeft className="absolute -left-5 -top-5" />

@@ -1,8 +1,8 @@
-function ExperienceSection() {
+function PrivateProjectsSection() {
   return (
     <div className="flex flex-col items-center justify-between bg-primary p-4 text-center shadow-xl transition hover:scale-105 md:items-start md:p-6 md:text-left lg:col-span-2">
-      <h3 className="text-2xl">Private Projects</h3>
-      <div className="h-[2px] w-80 bg-secondary" />
+      <h3 className="mb-2 text-2xl">Private Projects</h3>
+      <div className="mb-2 h-[2px] w-80 bg-secondary" />
       <p className="text-justify lg:text-left">
         Passionate about continuous learning and fueled by the joy of creation, I am constantly embarking on private
         projects that serve as both educational endeavors and sources of pure enjoyment. From crafting immersive
@@ -15,4 +15,4 @@ function ExperienceSection() {
   );
 }
 
-export default ExperienceSection;
+export default PrivateProjectsSection;

@@ -1,10 +1,10 @@
 import { screen, render } from '@testing-library/react';
 import { describe, test } from 'vitest';
-import ExperienceSection from './ExperienceSection';
+import PrivateProjectsSection from './PrivateProjectsSection';
 
-describe('ExperienceSection component should', () => {
+describe('PrivateProjectsSection component should', () => {
   test('render correctly', () => {
-    render(<ExperienceSection />);
+    render(<PrivateProjectsSection />);
 
     expect(
       screen.getByRole('heading', {

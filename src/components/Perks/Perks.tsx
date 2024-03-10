@@ -15,7 +15,7 @@ function Perks() {
       <div className="container mx-auto min-h-screen md:min-h-full">
         <div className="container absolute top-0 my-10 text-base-100 md:my-0">
           <div className="flex min-h-[50vh] flex-col items-center justify-center space-x-0 space-y-10 md:flex-row md:space-x-8 md:space-y-0">
-            <div className="flex w-[85%] flex-col items-center justify-between space-y-2 bg-primary p-4 text-center shadow-xl transition hover:scale-105 md:w-1/3 md:items-start md:p-6 md:text-left">
+            <div className="flex w-[85%] flex-col items-center justify-between space-y-2 bg-primary p-4 text-center shadow-xl transition hover:scale-105 md:items-start md:p-6 md:text-left lg:w-1/3">
               <img src={programmingIcon} className="w-14" alt="Programming on a desktop" />
               <h2 className="text-3xl">Programmer</h2>
               <p>
@@ -31,7 +31,7 @@ function Perks() {
                 </div>
               </Link>
             </div>
-            <div className="flex w-[85%] flex-col items-center justify-between space-y-2 bg-secondary p-4 text-center shadow-xl transition hover:scale-105 md:w-1/3 md:items-start md:p-6 md:text-left">
+            <div className="flex w-[85%] flex-col items-center justify-between space-y-2 bg-secondary p-4 text-center shadow-xl transition hover:scale-105 md:items-start md:p-6 md:text-left lg:w-1/3">
               <img src={studyIcon} className="w-14" alt="Programming on a desktop" />
               <h2 className="text-3xl">CS Student</h2>
               <p>
@@ -47,7 +47,7 @@ function Perks() {
                 </div>
               </Link>
             </div>
-            <div className="flex w-[85%] flex-col items-center justify-between space-y-2 bg-primary p-4 text-center shadow-xl transition hover:scale-105 md:w-1/3 md:items-start md:p-6 md:text-left">
+            <div className="flex w-[85%] flex-col items-center justify-between space-y-2 bg-primary p-4 text-center shadow-xl transition hover:scale-105 md:items-start md:p-6 md:text-left lg:w-1/3">
               <img src={freelancerIcon} className="w-14" alt="Programming on a desktop" />
               <h2 className="text-3xl">Freelancer</h2>
               <p>
