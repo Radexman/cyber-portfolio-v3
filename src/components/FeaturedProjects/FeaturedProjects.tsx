@@ -7,7 +7,7 @@ function Featured() {
   const { projects } = useContext(AppContext);
 
   return (
-    <div className="relative mt-20 min-h-screen bg-neutral md:mt-4">
+    <div className="relative mt-12 min-h-screen bg-neutral md:mt-4">
       <div className="absolute -bottom-52 h-[80vh] w-full bg-accent" />
       <div className="container relative mx-auto">
         <div className="mx-5 flex flex-col items-center justify-center text-center md:mx-0 md:flex-row md:justify-between md:text-left">

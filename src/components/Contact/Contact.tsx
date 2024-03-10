@@ -10,7 +10,7 @@ function Contact() {
             discussions and discover how we can achieve shared goals together.
           </p>
         </div>
-        <a href="mailto:radoslaw.siek-web.dev@wp.pl">
+        <a className="mt-6" href="mailto:radoslaw.siek-web.dev@wp.pl">
           <button type="button" className="cyber-button bg-red fg-white z-30 w-72 scale-[105%]">
             Contact
             <span className="glitchtext">Webrunner</span>
