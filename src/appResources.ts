@@ -4,7 +4,7 @@ export const projectsData = [
     name: 'House Harbor',
     summary:
       'House Harbor is a full-stack property rental service designed to simplify renting and selling properties. Users can sign up via email/password or Google Auth Token, update personal information, and manage accounts easily. The core feature is detailed property listings with full CRUD functionality connected to Firebase, allowing users to create, update, delete, and browse listings with intuitive search and filter options. The app enables direct communication with landlords via email or phone. Built with React and TypeScript, House Harbor offers a robust interface. Tailwind CSS and Daisy UI provide a modern design, while Firebase handles backend services. The app integrates Leaflet for maps, Swiper API for carousels, and Toastify for dynamic popups. Vite ensures fast bundling, and ESLint maintains code quality. House Harbor combines modern technologies to offer a user-friendly platform for property rentals and sales, essential for both landlords and tenants.',
-    imageUrl: 'src/assets/project-7.png',
+    imageUrl: '/assets/project-7.png',
     sentence:
       'House Harbor is a full-stack property rental service designed to simplify renting and selling properties.',
     tags: ['Frontend', 'React', 'TypeScript', 'Tailwind CSS', 'Daisy UI', 'Firebase', 'Vite'],
