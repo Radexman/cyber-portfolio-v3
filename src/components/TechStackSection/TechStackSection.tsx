@@ -7,7 +7,7 @@ import {
   SiVite as ViteIcon,
   SiEslint as EslintIcon,
 } from 'react-icons/si';
-import { IoLogoJavascript as JavaScriptIcon } from 'react-icons/io5';
+import { IoLogoJavascript as JavaScriptIcon, IoLogoFirebase as FirebaseIcon } from 'react-icons/io5';
 import { IoLogoCss3 as CSSIcon, IoLogoHtml5 as HTMLIcon } from 'react-icons/io';
 
 function TechStackSection() {
@@ -44,6 +44,10 @@ function TechStackSection() {
           <li className="badge flex items-center">
             <JavaScriptIcon />
             <p className="pl-1">JavaScript</p>
+          </li>
+          <li className="badge flex items-center">
+            <FirebaseIcon />
+            <p className="pl-1">Firebase</p>
           </li>
           <li className="badge flex items-center">
             <PythonIcon />

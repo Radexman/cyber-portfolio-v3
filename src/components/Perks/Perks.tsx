@@ -35,8 +35,8 @@ function Perks() {
               <img src={studyIcon} className="w-14" alt="Programming on a desktop" />
               <h2 className="text-3xl">CS Student</h2>
               <p>
-                As a part-time Computer Science student, I not only love deepening my horizons but also relish the
-                chance to interact with like-minded individuals.
+                As a part-time Computer Science student, I am not only love deepening my horizons but also relish the
+                chance to interact with simmilar individuals.
               </p>
               <Link to="/about">
                 <div className="group flex items-center space-x-3">
