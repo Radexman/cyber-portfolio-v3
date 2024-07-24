@@ -4,12 +4,14 @@ function PrivateProjectsSection() {
       <h3 className="mb-2 text-2xl">Private Projects</h3>
       <div className="mb-2 h-[2px] w-80 bg-secondary" />
       <p className="text-justify lg:text-left">
-        Passionate about continuous learning and fueled by the joy of creation, I am constantly embarking on private
-        projects that serve as both educational endeavors and sources of pure enjoyment. From crafting immersive
-        experiences like my Wither RPG companion app, designed to elevate the traditional paper RPG gameplay, to
-        envisioning my next dream project—a full-stack application empowering users to login, create profiles, and
-        beyond—I pour my heart and soul into every endeavor. With a boundless enthusiasm for technology and a relentless
-        pursuit of innovation, I thrive on the journey of bringing ideas to life, one project at a time.
+        Driven by a passion for continuous learning and innovation, I actively engage in private projects that combine
+        educational growth with creative exploration. Currently, I am working with a small team to develop a mobile
+        game, leveraging collaborative skills and innovative techniques to create an engaging experience for users.
+        Additionally, I am enrolled in an online Three.js 3D programming bootcamp to further expand my expertise in
+        immersive web technologies. Among my projects, I have developed the Wither RPG companion app, designed to
+        enhance traditional paper RPG gameplay with immersive features. I am also conceptualizing a full-stack
+        application that will enable users to log in, create profiles, and interact in dynamic ways. Each project
+        reflects my commitment to pushing technological boundaries and turning visionary ideas into reality.
       </p>
     </div>
   );

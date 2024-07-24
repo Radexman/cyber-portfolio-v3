@@ -19,8 +19,7 @@ function Perks() {
               <img src={programmingIcon} className="w-14" alt="Programming on a desktop" />
               <h2 className="text-3xl">Programmer</h2>
               <p>
-                I specialize in React framework to create scalable and responsive web apps. Creating engaging user
-                interfaces is my passion.
+                I specialize in the React framework to build scalable, responsive web applications, with a passion for creating engaging and intuitive user interfaces.
               </p>
               <Link to="/about" className="group">
                 <div className="flex items-center space-x-3 text-secondary-content">
@@ -33,10 +32,9 @@ function Perks() {
             </div>
             <div className="flex w-[85%] flex-col items-center justify-between space-y-2 bg-secondary p-4 text-center shadow-xl transition hover:scale-105 md:items-start md:p-6 md:text-left lg:w-1/3">
               <img src={studyIcon} className="w-14" alt="Programming on a desktop" />
-              <h2 className="text-3xl">CS Student</h2>
+              <h2 className="text-3xl">Coding Coach</h2>
               <p>
-                As a part-time Computer Science student, I am not only love deepening my horizons but also relish the
-                chance to interact with simmilar individuals.
+                As a programming coach at Coding Giants, I teach children and teens web development, programming, and AI, fostering their technical skills and passion for technology.
               </p>
               <Link to="/about">
                 <div className="group flex items-center space-x-3">
@@ -51,8 +49,7 @@ function Perks() {
               <img src={freelancerIcon} className="w-14" alt="Programming on a desktop" />
               <h2 className="text-3xl">Freelancer</h2>
               <p>
-                As a freelancer, I&apos;ve excelled in professional settings, delivering desired projects and refining
-                my customer communication skills.
+                As a freelancer, I have successfully delivered high-quality projects in professional settings, while continuously enhancing my client communication skills.
               </p>
               <Link to="/about">
                 <div className="group flex items-center space-x-3 text-secondary-content">

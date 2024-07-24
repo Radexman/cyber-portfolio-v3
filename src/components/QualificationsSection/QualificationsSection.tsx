@@ -8,10 +8,12 @@ function QualificationsSection() {
       <h3 className="text-2xl ">Qualifications</h3>
       <div className="h-[2px] w-80 bg-primary" />
       <p className="text-justify lg:text-left">
-        I am a Computer Science student at AG in Katowice, specializing in programming and databases, as it has always
-        been not only my work but also my genuine passion. I have acquired multiple certifications in frontend
-        competencies, including React, JavaScript, and Tailwind CSS. You can preview or download them by clicking on the
-        respective technology names.
+        I am a dedicated programming coach at Coding Giants and a freelance developer specializing in delivering
+        high-quality web pages and applications. My professional journey has been deeply enriched by extensive online
+        bootcamps and certifications, which have provided me with advanced knowledge in frontend technologies. I hold
+        certifications in React, JavaScript, and Tailwind CSS, reflecting my commitment to mastering these essential
+        tools and delivering top-notch solutions. These credentials underscore my expertise and dedication to continuous
+        improvement in the ever-evolving field of web development.
       </p>
       <ul className="flex flex-row gap-4 lg:flex-col lg:gap-2">
         <li>

@@ -15,6 +15,12 @@ function TechStackSection() {
     <div className="flex flex-col items-center space-y-2 bg-primary p-4 text-center shadow-xl transition hover:scale-105 md:items-start md:p-6 md:text-left">
       <h3 className="text-2xl text-secondary-content">Tech Stack</h3>
       <div className="h-[2px] w-80 bg-secondary" />
+      <div className='text-justify lg:text-left'>
+        I specialize in React 18, React Router, and Redux to build dynamic, scalable web applications. My expertise
+        includes TypeScript and JavaScript (ES6+), complemented by in-depth experience with Firebase for backend
+        development. I follow a Test-Driven Development (TDD) approach, using Jest, React Testing Library (RTL), and
+        Vitest to ensure robust, reliable applications.
+      </div>
       <div>
         <p className="text-lg">Main Technologies</p>
       </div>

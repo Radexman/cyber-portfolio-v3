@@ -20,13 +20,13 @@ function About() {
             <div>
               <h1 className="text-2xl uppercase">Bio</h1>
               <p className="text-justify lg:text-left">
-                Since embarking on my coding journey, I&apos;ve discovered a profound love for the craft—a passion that
-                transcends all others, defining the very essence of my existence. As a dedicated and passionate young
-                frontend developer, science student, and freelance enthusiast, I thrive on crafting bespoke web
-                applications and websites. Engaged in daily coding, I actively pursue junior roles in my field while
-                immersing myself in challenges like Frontend Mentor, offering valuable feedback and contributing to code
-                reviews. Balancing my studies in computer science part-time, I&apos;m committed to continuous learning
-                and growth in the dynamic world of technology.
+                Since embarking on my coding journey, I have developed a deep passion for frontend development, which
+                drives my commitment to crafting bespoke web applications and websites. As a dedicated frontend
+                developer and programming coach at Coding Giants, I specialize in creating scalable, responsive web
+                solutions while teaching children and teens web development, programming, and AI. I am actively engaged
+                in daily coding and seek junior roles to further refine my skills. Additionally, I participate in
+                challenges like Frontend Mentor, where I provide valuable feedback and contribute to code reviews. My
+                focus is on continuous learning and growth in the ever-evolving tech landscape.
               </p>
             </div>
           </div>
