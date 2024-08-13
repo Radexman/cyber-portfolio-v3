@@ -104,7 +104,7 @@ export const tilesData = [
   {
     id: 4,
     label: 'Projects Deployed',
-    value: '76+',
+    value: '77+',
   },
 ];
 
