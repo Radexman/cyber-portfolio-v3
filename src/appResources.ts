@@ -37,15 +37,15 @@ export const projectsData = [
   },
   {
     id: 4,
-    name: 'Shortly',
+    name: 'Calculator App',
     summary:
-      'This project is a Frontend Mentor challenge website integrating a link shortener API. Employing the Tailwind CSS framework, I meticulously crafted custom variables tailored to optimize page performance. Following a mobile-first approach, the website is designed to ensure full responsiveness across all devices. The link shortener form mandates a valid URL entry; failure to comply prompts an error message. Upon submission of a valid URL, a brief loading screen appears, swiftly vanishing upon successful retrieval of the API response. The resulting data is seamlessly appended to the DOM for user interaction.',
-    imageUrl: '/assets/project-3.png',
+      'A dynamic and user-friendly calculator built with React and TypeScript. It features basic arithmetic operations, percentage calculations, plus/minus toggle, and support for parentheses. Styled with Tailwind CSS and powered by Redux Toolkit for state management, this app offers a responsive design and intuitive user experience.',
+    imageUrl: '/assets/project-8.png',
     sentence:
-      'This project is a Frontend Mentor challenge website integrating a link shortener API, employing the Tailwind CSS framework.',
-    tags: ['Frontend', 'JavaScript', 'Tailwind CSS', 'HTML', 'Fetch API'],
-    pageLink: 'https://shortly001.netlify.app/',
-    repoLink: 'https://github.com/Radexman/shortly',
+      'A sleek and responsive React calculator with TypeScript, featuring basic operations, percentage calculations, parentheses support, and styled with Tailwind CSS.',
+    tags: ['Frontend', 'React', 'Redux', 'TypeScript', 'JavaScript', 'Tailwind CSS', 'Vitest'],
+    pageLink: 'https://calculator-app-002.netlify.app/',
+    repoLink: 'https://github.com/Radexman/calculator-app',
   },
   {
     id: 5,
@@ -83,13 +83,25 @@ export const projectsData = [
     pageLink: 'https://bookmark001.netlify.app/',
     repoLink: 'https://github.com/Radexman/bookmark/tree/master',
   },
+  {
+    id: 8,
+    name: 'Shortly',
+    summary:
+      'This project is a Frontend Mentor challenge website integrating a link shortener API. Employing the Tailwind CSS framework, I meticulously crafted custom variables tailored to optimize page performance. Following a mobile-first approach, the website is designed to ensure full responsiveness across all devices. The link shortener form mandates a valid URL entry; failure to comply prompts an error message. Upon submission of a valid URL, a brief loading screen appears, swiftly vanishing upon successful retrieval of the API response. The resulting data is seamlessly appended to the DOM for user interaction.',
+    imageUrl: '/assets/project-3.png',
+    sentence:
+      'This project is a Frontend Mentor challenge website integrating a link shortener API, employing the Tailwind CSS framework.',
+    tags: ['Frontend', 'JavaScript', 'Tailwind CSS', 'HTML', 'Fetch API'],
+    pageLink: 'https://shortly001.netlify.app/',
+    repoLink: 'https://github.com/Radexman/shortly',
+  },
 ];
 
 export const tilesData = [
   {
     id: 1,
     label: 'Project Hours',
-    value: '2926+',
+    value: '2932+',
   },
   {
     id: 2,
@@ -104,7 +116,7 @@ export const tilesData = [
   {
     id: 4,
     label: 'Projects Deployed',
-    value: '77+',
+    value: '78+',
   },
 ];
 
