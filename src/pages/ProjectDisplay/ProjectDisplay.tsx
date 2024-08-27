@@ -20,15 +20,19 @@ function ProjectDisplay() {
       <div className="min-h-[60vh] text-primary-content">
         <div className="bg-secondary-focus mt-11 p-4 lg:bg-primary">
           <div className="flex flex-col space-y-3 lg:flex-row lg:space-x-5 lg:space-y-0">
-            <div className="w-full lg:w-1/3">
-              <img src={resourceImage} alt={`${resourceName} landing page`} />
+            <div className="relative h-72 w-full overflow-hidden lg:w-1/3">
+              <img
+                src={resourceImage}
+                alt={`${resourceName} landing page`}
+                className="absolute inset-0 h-full w-full object-cover"
+              />
             </div>
             <div className="flex w-full flex-col justify-start space-y-2 lg:w-2/3">
               <h1 className="text-center text-5xl lg:text-left">{resourceName}</h1>
               <div className="flex flex-wrap justify-center gap-1 lg:justify-start">
                 {Array.isArray(resourceTags) ? (
                   resourceTags.map((tag) => (
-                    <p className="badge badge-outline" key={resourceId}>
+                    <p className="badge badge-outline" key={tag}>
                       {tag}
                     </p>
                   ))

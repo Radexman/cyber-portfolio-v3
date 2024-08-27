@@ -7,7 +7,9 @@ function SingleProject({ project }: SingleProjectProps) {
   return (
     <div data-testid="project-container" key={id} className="cyber-tile md:cyber-tile-big mx-auto w-[80%] md:w-full">
       <div className="bg-primary p-5">
-        <img src={imageUrl} alt={`${name} landing page`} className="block h-64 w-full" />
+        <div className="relative h-80 w-full overflow-hidden">
+          <img src={imageUrl} alt={`${name} landing page`} className="absolute inset-0 h-full w-full object-cover" />
+        </div>
         <div className="mt-2 space-y-3">
           <p className="text-xl uppercase text-base-100">{name}</p>
           <p className="text-justify text-base-100 md:text-left">{sentence}</p>
@@ -26,4 +28,5 @@ function SingleProject({ project }: SingleProjectProps) {
     </div>
   );
 }
+
 export default SingleProject;
