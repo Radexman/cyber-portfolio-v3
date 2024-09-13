@@ -62,7 +62,7 @@ function Footer() {
               </a>
             </li>
             <li>
-              <a href="assets\cv-radosław-siek.pdf" target="_blank" className="hover:underline">
+              <a href="public/assets/cv-radosław-siek.pdf" target="_blank" className="hover:underline">
                 Preview CV
               </a>
             </li>

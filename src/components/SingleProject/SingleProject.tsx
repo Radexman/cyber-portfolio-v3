@@ -7,8 +7,8 @@ function SingleProject({ project }: SingleProjectProps) {
   return (
     <div data-testid="project-container" key={id} className="cyber-tile md:cyber-tile-big mx-auto w-[80%] md:w-full">
       <div className="bg-primary p-5">
-        <div className="relative h-80 w-full overflow-hidden">
-          <img src={imageUrl} alt={`${name} landing page`} className="absolute inset-0 h-full w-full object-cover" />
+        <div className="h-44 w-full overflow-hidden sm:h-40 lg:h-80">
+          <img src={imageUrl} alt={`${name} landing page`} className="h-full w-full object-cover" />
         </div>
         <div className="mt-2 space-y-3">
           <p className="text-xl uppercase text-base-100">{name}</p>
