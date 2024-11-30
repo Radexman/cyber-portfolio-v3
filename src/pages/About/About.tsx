@@ -8,7 +8,7 @@ function About() {
   return (
     <div className="min-h-screen">
       <div className="container mx-auto space-y-6 text-primary-content">
-        <div className="mx-4 mb-14 mt-4 flex flex-col items-center gap-4 bg-primary p-4 md:flex-row">
+        <div className="mx-3 mb-14 mt-4 flex flex-col items-center gap-4 bg-primary p-4 md:flex-row">
           <div>
             <div className="avatar w-40">
               <div className="rounded">
