@@ -17,7 +17,7 @@ function ProjectDisplay() {
 
   return (
     <div className="container mx-auto">
-      <div className="min-h-[60vh] text-primary-content">
+      <div className="mx-0 min-h-[60vh] text-primary-content md:mx-2">
         <div className="bg-secondary-focus mt-11 p-4 lg:bg-primary">
           <div className="flex flex-col space-y-3 lg:flex-row lg:space-x-5 lg:space-y-0">
             <div className="relative h-72 w-full overflow-hidden lg:w-1/3">

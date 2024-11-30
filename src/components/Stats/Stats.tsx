@@ -15,7 +15,7 @@ function Stats() {
 
   return (
     <div className="container mx-auto mt-4">
-      <div className="flex flex-col items-center justify-center space-y-7 md:flex-row md:space-x-8 md:space-y-0">
+      <div className="mx-0 flex flex-col items-center justify-center space-y-7 md:mx-4 md:flex-row md:space-x-8 md:space-y-0">
         <div className="flex w-[90%] flex-col items-center justify-center text-center md:w-1/3">
           <p className="text-8xl text-secondary-content">2+</p>
           <p className="text-2xl">Years Experience</p>

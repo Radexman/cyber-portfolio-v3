@@ -10,7 +10,7 @@ function Featured() {
     <div className="relative mt-2 min-h-screen bg-neutral md:mt-4">
       <div className="absolute -bottom-52 h-[80vh] w-full bg-accent" />
       <div className="container relative mx-auto">
-        <div className="mx-5 flex flex-col items-center justify-center text-center md:mx-0 md:flex-row md:justify-between md:text-left">
+        <div className="mx-2 flex flex-col items-center justify-center text-center md:mx-5 md:flex-row md:justify-between md:text-left">
           <div className="flex flex-col space-y-2 text-base-100">
             <h2 className="text-3xl">Featured Projcts</h2>
             <p>
@@ -29,7 +29,7 @@ function Featured() {
           </div>
         </div>
         <div className="mt-16 space-y-2">
-          <div className="grid grid-cols-1 gap-y-10 md:grid-cols-2 md:grid-rows-2 md:gap-y-12 lg:gap-x-32 xl:gap-x-56">
+          <div className="mx-0 grid grid-cols-1 gap-y-10 md:mx-4 md:grid-cols-2 md:grid-rows-2 md:gap-y-12 lg:gap-x-32 xl:gap-x-56">
             {projects.slice(0, 4).map((project) => (
               <SingleProject key={project.id} project={project} />
             ))}

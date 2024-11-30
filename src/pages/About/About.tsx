@@ -7,8 +7,8 @@ import ClientProjectsSecrion from '../../components/ClientProjectsSection/Client
 function About() {
   return (
     <div className="min-h-screen">
-      <div className="container  mx-auto space-y-6 text-primary-content">
-        <div className="mb-14 flex flex-col items-center gap-4 bg-primary p-4 md:flex-row">
+      <div className="container mx-auto space-y-6 text-primary-content">
+        <div className="mx-4 mb-14 mt-4 flex flex-col items-center gap-4 bg-primary p-4 md:flex-row">
           <div>
             <div className="avatar w-40">
               <div className="rounded">
@@ -31,7 +31,7 @@ function About() {
             </div>
           </div>
         </div>
-        <div className="grid-cols grid place-content-center gap-10 p-6 lg:grid-cols-3 lg:gap-6 lg:p-0">
+        <div className="grid-cols mx-0 grid place-content-center gap-10 p-6 md:mx-4 lg:grid-cols-2 lg:gap-6 lg:p-0 xl:grid-cols-3">
           <TechStackSection />
           <QualificationsSection />
           <ClientProjectsSecrion />
