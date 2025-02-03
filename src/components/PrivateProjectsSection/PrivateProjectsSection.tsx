@@ -4,14 +4,15 @@ function PrivateProjectsSection() {
       <h3 className="mb-2 text-2xl">Private Projects</h3>
       <div className="mb-2 h-[2px] w-80 bg-secondary" />
       <p className="text-justify lg:text-left">
-        Driven by a passion for continuous learning and innovation, I actively engage in private projects that combine
-        educational growth with creative exploration. Currently, I am working with a small team to develop a mobile
-        game, leveraging collaborative skills and innovative techniques to create an engaging experience for users.
-        Additionally, I am enrolled in an online Three.js 3D programming bootcamp to further expand my expertise in
-        immersive web technologies. Among my projects, I have developed the Wither RPG companion app, designed to
-        enhance traditional paper RPG gameplay with immersive features. I am also conceptualizing a full-stack
-        application that will enable users to log in, create profiles, and interact in dynamic ways. Each project
-        reflects my commitment to pushing technological boundaries and turning visionary ideas into reality.
+        Driven by a passion for continuous learning and innovation, I am constantly exploring new technologies to create
+        captivating and immersive web experiences. Recently, I’ve been diving into the world of Three.js and Blender,
+        expanding my skills in 3D programming and creative design. This new hobby allows me to push the boundaries of
+        what&apos;s possible in web development, enabling me to craft interactive, visually stunning environments that
+        engage users in entirely new ways. In addition to this, I’m working on a variety of projects where I combine my
+        full-stack development skills with my creative explorations. I am particularly focused on enhancing the
+        interactivity and aesthetic quality of my web applications, ensuring that every user experience is as immersive
+        and enjoyable as possible. Through these efforts, I continue to expand my expertise and contribute to the
+        advancement of web technologies.
       </p>
     </div>
   );

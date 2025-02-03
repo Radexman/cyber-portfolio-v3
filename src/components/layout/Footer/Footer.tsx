@@ -6,7 +6,9 @@ function Footer() {
       <footer className="container footer mx-auto mt-16  bg-primary p-10 text-base-100">
         <aside className="text-lg">
           <p className="">Portfolio Radosław Siek</p>
-          <p className="text-secondary-content">React Frontend Developer</p>
+          <p className="text-secondary-content">
+            React Frontend Developer <br /> Programming Coach
+          </p>
         </aside>
         <nav>
           <header className="footer-title">Menu</header>
