@@ -73,6 +73,18 @@ export const projectsData = [
   },
   {
     id: 6,
+    name: 'Galaxy Generator',
+    summary:
+      'The Galaxy Generator is an artistic project built with JavaScript and Three.js that allows users to create stunning, star-filled galaxies. Leveraging particle effects, the app generates hundreds of thousands of stars in real-time, enabling users to create and customize their own galaxies. Users can adjust the number of stars, add new segments to the galaxy, change colors, and even fine-tune the spiral effect to create visually captivating, dynamic galaxies. The project is designed to showcase impressive graphical effects, allowing users to generate up to 1,000,000 stars without sacrificing rendering performance.',
+    imageUrl: 'src/assets/project-11.png',
+    sentence:
+      'The Galaxy Generator is an artistic JavaScript and Three.js project that enables users to create and customize dynamic, star-filled galaxies.',
+    tags: ['Frontend', 'JavaScript', 'Three.js'],
+    pageLink: 'https://galaxy-generator-001.netlify.app/',
+    repoLink: 'https://github.com/Radexman/Galaxy-Generator',
+  },
+  {
+    id: 7,
     name: 'Calculator App',
     summary:
       'A dynamic and user-friendly calculator built with React and TypeScript. It features basic arithmetic operations, percentage calculations, plus/minus toggle, and support for parentheses. Styled with Tailwind CSS and powered by Redux Toolkit for state management, this app offers a responsive design and intuitive user experience.',
@@ -84,7 +96,7 @@ export const projectsData = [
     repoLink: 'https://github.com/Radexman/calculator-app',
   },
   {
-    id: 7,
+    id: 8,
     name: 'Fylo',
     summary:
       'This project, named Fylo, represents a meticulous rendition of the Fylo service website as per the specifications outlined in the Frontend Mentor challenge. Leveraging Tailwind CSS, JavaScript, and HTML, I meticulously crafted custom variables tailored to the designated theme, ensuring a faithful reproduction of the original design.',
@@ -96,7 +108,7 @@ export const projectsData = [
     repoLink: 'https://github.com/Radexman/fylo/tree/master',
   },
   {
-    id: 8,
+    id: 9,
     name: 'Language Tutor Portfolio',
     summary:
       "This website serves as a dynamic platform tailored specifically for Emilia Kożuch, a dedicated English teacher and avid student. Catering to both her educational pursuits and her role as an English tutor, the site provides comprehensive insights into Ms. Kożuch's background, qualifications, and the range of language services she offers. Visitors can delve into detailed information about her educational journey, teaching methodology, and the array of language classes she conducts. Additionally, the website offers seamless communication channels, guiding visitors on how to easily connect with Ms. Kożuch to explore opportunities for language learning and collaboration.",
@@ -108,7 +120,7 @@ export const projectsData = [
     repoLink: 'https://github.com/Radexman/emilia-kozuch-portfolio/tree/main',
   },
   {
-    id: 9,
+    id: 10,
     name: 'Bookmark',
     summary:
       'This project is a frontend implementation of the Bookmark landing page design challenge from Frontend Mentor. The challenge required recreating the visual design closely, and I am proud to say that this project closely resembles the original design provided.',
@@ -120,7 +132,7 @@ export const projectsData = [
     repoLink: 'https://github.com/Radexman/bookmark/tree/master',
   },
   {
-    id: 10,
+    id: 11,
     name: 'Shortly',
     summary:
       'This project is a Frontend Mentor challenge website integrating a link shortener API. Employing the Tailwind CSS framework, I meticulously crafted custom variables tailored to optimize page performance. Following a mobile-first approach, the website is designed to ensure full responsiveness across all devices. The link shortener form mandates a valid URL entry; failure to comply prompts an error message. Upon submission of a valid URL, a brief loading screen appears, swiftly vanishing upon successful retrieval of the API response. The resulting data is seamlessly appended to the DOM for user interaction.',
