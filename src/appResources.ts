@@ -149,7 +149,7 @@ export const tilesData = [
   {
     id: 1,
     label: 'Project Hours',
-    value: '3562+',
+    value: '3574+',
   },
   {
     id: 2,
@@ -164,7 +164,7 @@ export const tilesData = [
   {
     id: 4,
     label: 'Projects Deployed',
-    value: '83+',
+    value: '85+',
   },
 ];
 
