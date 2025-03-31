@@ -64,7 +64,7 @@ export const projectsData = [
     name: 'SaaS Landing Page',
     summary:
       'This elegant and artistic SaaS landing page is inspired by the design of XORA, a service for AI-powered file editing. The page features a clean and modern layout, focusing on user experience and visual appeal. With subtle, pleasing animations, it creates an engaging atmosphere, inviting visitors to explore the capabilities of the service. Designed to be both functional and visually captivating, this landing page effectively captures the essence of AI-driven innovation while maintaining a user-friendly interface.',
-    imageUrl: 'src/assets/project-10.png',
+    imageUrl: '/assets/project-10.png',
     sentence:
       'An elegant, XORA-inspired landing page showcasing AI-powered file editing, featuring a clean design, subtle animations, and a user-friendly interface for an engaging experience.',
     tags: ['Frontend', 'React', 'TypeScrip', 'JavaScript', 'Tailwind CSS'],
@@ -76,7 +76,7 @@ export const projectsData = [
     name: 'Galaxy Generator',
     summary:
       'The Galaxy Generator is an artistic project built with JavaScript and Three.js that allows users to create stunning, star-filled galaxies. Leveraging particle effects, the app generates hundreds of thousands of stars in real-time, enabling users to create and customize their own galaxies. Users can adjust the number of stars, add new segments to the galaxy, change colors, and even fine-tune the spiral effect to create visually captivating, dynamic galaxies. The project is designed to showcase impressive graphical effects, allowing users to generate up to 1,000,000 stars without sacrificing rendering performance.',
-    imageUrl: 'src/assets/project-11.png',
+    imageUrl: '/assets/project-11.png',
     sentence:
       'The Galaxy Generator is an artistic JavaScript and Three.js project that enables users to create and customize dynamic, star-filled galaxies.',
     tags: ['Frontend', 'JavaScript', 'Three.js'],
@@ -88,7 +88,7 @@ export const projectsData = [
     name: 'Calculator App',
     summary:
       'A dynamic and user-friendly calculator built with React and TypeScript. It features basic arithmetic operations, percentage calculations, plus/minus toggle, and support for parentheses. Styled with Tailwind CSS and powered by Redux Toolkit for state management, this app offers a responsive design and intuitive user experience.',
-    imageUrl: '/assets/project-8.png',
+    imageUrl: 'src/assets/project-8.png',
     sentence:
       'A sleek and responsive React calculator with TypeScript, featuring basic operations, percentage calculations, and styled with Tailwind CSS.',
     tags: ['Frontend', 'React', 'Redux', 'TypeScript', 'JavaScript', 'Tailwind CSS', 'Vitest'],
