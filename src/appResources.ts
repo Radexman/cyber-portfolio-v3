@@ -88,7 +88,7 @@ export const projectsData = [
     name: 'Calculator App',
     summary:
       'A dynamic and user-friendly calculator built with React and TypeScript. It features basic arithmetic operations, percentage calculations, plus/minus toggle, and support for parentheses. Styled with Tailwind CSS and powered by Redux Toolkit for state management, this app offers a responsive design and intuitive user experience.',
-    imageUrl: 'src/assets/project-8.png',
+    imageUrl: '/assets/project-8.png',
     sentence:
       'A sleek and responsive React calculator with TypeScript, featuring basic operations, percentage calculations, and styled with Tailwind CSS.',
     tags: ['Frontend', 'React', 'Redux', 'TypeScript', 'JavaScript', 'Tailwind CSS', 'Vitest'],
