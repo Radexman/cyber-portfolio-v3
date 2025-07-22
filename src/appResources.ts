@@ -1,6 +1,30 @@
 export const projectsData = [
   {
     id: 1,
+    name: 'Finhubs',
+    summary:
+      "Finhubs is a full-stack AI powered financial sentiment dashboard built with Next.js, TypeScript, and BigQuery. It allows users to explore and analyze news article sentiment across companies and topics over time. It also provides user with AI predicted stock prices. The project features a customizable Recharts-based sentiment-over-time chart with adjustable line type, grid, and axis settings persisted via Redux and localStorage. Users can filter articles by sentiment, topic, or company, with automatic population of filter options based on data fetched from Google Cloud's BigQuery. The UI is responsive and optimized for both desktop and mobile, including animated navigation and dark mode support.",
+    imageUrl: '/assets/project-12.png',
+    sentence:
+      'A financial sentiment dashboard built with Next.js and BigQuery, featuring customizable charts, advanced filtering, and a responsive modern UI.',
+    tags: [
+      'Frontend',
+      'Backend',
+      'Next.js',
+      'React',
+      'TypeScript',
+      'GCP',
+      'Tailwind CSS',
+      'Daisy UI',
+      'Recharts',
+      'RTL',
+      'Cypress',
+    ],
+    pageLink: 'https://finhubs-frontend.vercel.app/',
+    repoLink: 'https://github.com/joint-hubs/finhubs-frontend',
+  },
+  {
+    id: 2,
     name: 'House Harbor',
     summary:
       'House Harbor is a full-stack property rental service designed to simplify renting and selling properties. Users can sign up via email/password or Google Auth Token, update personal information, and manage accounts easily. The core feature is detailed property listings with full CRUD functionality connected to Firebase, allowing users to create, update, delete, and browse listings with intuitive search and filter options. The app enables direct communication with landlords via email or phone. Built with React and TypeScript, House Harbor offers a robust interface. Tailwind CSS and Daisy UI provide a modern design, while Firebase handles backend services. The app integrates Leaflet for maps, Swiper API for carousels, and Toastify for dynamic popups. Vite ensures fast bundling, and ESLint maintains code quality. House Harbor combines modern technologies to offer a user-friendly platform for property rentals and sales, essential for both landlords and tenants.',
@@ -12,7 +36,7 @@ export const projectsData = [
     repoLink: 'https://github.com/Radexman/House-Harbor-App/tree/master',
   },
   {
-    id: 2,
+    id: 3,
     name: 'Overachiever',
     summary:
       'The Overachiever app serves as a versatile platform where users can seamlessly create, customize, and prioritize tasks. The UI dynamically reflects these actions, surpassing standard to-do apps by integrating a dedicated statistics section. Here, users meticulously track their daily progress through task engagement and completion.',
@@ -24,7 +48,7 @@ export const projectsData = [
     repoLink: 'https://github.com/Radexman/Overachiever',
   },
   {
-    id: 3,
+    id: 4,
     name: 'Github Finder',
     summary:
       'GitHub Finder is a web app that enables users to browse through GitHub users, check their names, locations, and bios. Users can also click on their external profiles and view their list of latest repositories that they have been working on recently. GitHub Finder utilizes the GitHub API and fetches data via async functions that follow a REST API-like structure.',
@@ -36,7 +60,7 @@ export const projectsData = [
     repoLink: 'https://github.com/Radexman/github-finder',
   },
   {
-    id: 4,
+    id: 5,
     name: 'User Management Table',
     summary:
       'The User Management Table app is a dynamic web application that fetches data from an API and allows real-time filtering by name, username, email, and phone number using text input and radio buttons. It features a dark mode toggle for enhanced user experience and is built with React, Redux Toolkit, and TypeScript for robust state management and type safety. The app uses Vite for fast development, Axios for data fetching, and Tailwind CSS with DaisyUI for responsive and consistent styling. Additionally, Zod ensures schema validation for API data, while comprehensive unit and integration tests, written with Vitest and React Testing Library, ensure the app functions correctly. Linting and formatting are maintained through ESLint and Prettier.',
@@ -60,7 +84,7 @@ export const projectsData = [
     repoLink: 'https://github.com/Radexman/user-management-table',
   },
   {
-    id: 5,
+    id: 6,
     name: 'SaaS Landing Page',
     summary:
       'This elegant and artistic SaaS landing page is inspired by the design of XORA, a service for AI-powered file editing. The page features a clean and modern layout, focusing on user experience and visual appeal. With subtle, pleasing animations, it creates an engaging atmosphere, inviting visitors to explore the capabilities of the service. Designed to be both functional and visually captivating, this landing page effectively captures the essence of AI-driven innovation while maintaining a user-friendly interface.',
@@ -72,7 +96,7 @@ export const projectsData = [
     repoLink: 'https://github.com/Radexman/sass-page',
   },
   {
-    id: 6,
+    id: 7,
     name: 'Galaxy Generator',
     summary:
       'The Galaxy Generator is an artistic project built with JavaScript and Three.js that allows users to create stunning, star-filled galaxies. Leveraging particle effects, the app generates hundreds of thousands of stars in real-time, enabling users to create and customize their own galaxies. Users can adjust the number of stars, add new segments to the galaxy, change colors, and even fine-tune the spiral effect to create visually captivating, dynamic galaxies. The project is designed to showcase impressive graphical effects, allowing users to generate up to 1,000,000 stars without sacrificing rendering performance.',
@@ -84,7 +108,7 @@ export const projectsData = [
     repoLink: 'https://github.com/Radexman/Galaxy-Generator',
   },
   {
-    id: 7,
+    id: 8,
     name: 'Calculator App',
     summary:
       'A dynamic and user-friendly calculator built with React and TypeScript. It features basic arithmetic operations, percentage calculations, plus/minus toggle, and support for parentheses. Styled with Tailwind CSS and powered by Redux Toolkit for state management, this app offers a responsive design and intuitive user experience.',
@@ -96,7 +120,7 @@ export const projectsData = [
     repoLink: 'https://github.com/Radexman/calculator-app',
   },
   {
-    id: 8,
+    id: 9,
     name: 'Fylo',
     summary:
       'This project, named Fylo, represents a meticulous rendition of the Fylo service website as per the specifications outlined in the Frontend Mentor challenge. Leveraging Tailwind CSS, JavaScript, and HTML, I meticulously crafted custom variables tailored to the designated theme, ensuring a faithful reproduction of the original design.',
@@ -108,7 +132,7 @@ export const projectsData = [
     repoLink: 'https://github.com/Radexman/fylo/tree/master',
   },
   {
-    id: 9,
+    id: 10,
     name: 'Language Tutor Portfolio',
     summary:
       "This website serves as a dynamic platform tailored specifically for Emilia Kożuch, a dedicated English teacher and avid student. Catering to both her educational pursuits and her role as an English tutor, the site provides comprehensive insights into Ms. Kożuch's background, qualifications, and the range of language services she offers. Visitors can delve into detailed information about her educational journey, teaching methodology, and the array of language classes she conducts. Additionally, the website offers seamless communication channels, guiding visitors on how to easily connect with Ms. Kożuch to explore opportunities for language learning and collaboration.",
@@ -120,7 +144,7 @@ export const projectsData = [
     repoLink: 'https://github.com/Radexman/emilia-kozuch-portfolio/tree/main',
   },
   {
-    id: 10,
+    id: 11,
     name: 'Bookmark',
     summary:
       'This project is a frontend implementation of the Bookmark landing page design challenge from Frontend Mentor. The challenge required recreating the visual design closely, and I am proud to say that this project closely resembles the original design provided.',
@@ -132,7 +156,7 @@ export const projectsData = [
     repoLink: 'https://github.com/Radexman/bookmark/tree/master',
   },
   {
-    id: 11,
+    id: 12,
     name: 'Shortly',
     summary:
       'This project is a Frontend Mentor challenge website integrating a link shortener API. Employing the Tailwind CSS framework, I meticulously crafted custom variables tailored to optimize page performance. Following a mobile-first approach, the website is designed to ensure full responsiveness across all devices. The link shortener form mandates a valid URL entry; failure to comply prompts an error message. Upon submission of a valid URL, a brief loading screen appears, swiftly vanishing upon successful retrieval of the API response. The resulting data is seamlessly appended to the DOM for user interaction.',
@@ -149,7 +173,7 @@ export const tilesData = [
   {
     id: 1,
     label: 'Project Hours',
-    value: '4013+',
+    value: '4096+',
   },
   {
     id: 2,
@@ -159,12 +183,12 @@ export const tilesData = [
   {
     id: 3,
     label: 'Clients',
-    value: '8',
+    value: '9',
   },
   {
     id: 4,
     label: 'Projects Deployed',
-    value: '85+',
+    value: '86+',
   },
 ];
 
